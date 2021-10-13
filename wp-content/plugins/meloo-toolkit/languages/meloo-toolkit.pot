@@ -1,0 +1,6322 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Meloo Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 10:25+0200\n"
+"POT-Revision-Date: Thu Apr 21 2016 20:58:10 GMT+0200 (Central European "
+"Daylight Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: admin <office@rascals.eu>\n"
+"Language-Team: Rascals Themes\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/core-translate.php:33
+msgid "Welcome"
+msgstr ""
+
+#: core/core-translate.php:35 core/core-translate.php:43
+msgid "System Status"
+msgstr ""
+
+#: core/core-translate.php:37
+msgid "Theme Plugins"
+msgstr ""
+
+#: core/core-translate.php:39 core/core-translate.php:95
+msgid "Install Demos"
+msgstr ""
+
+#: core/core-translate.php:41
+msgid "Theme Panel"
+msgstr ""
+
+#: core/core-translate.php:45
+msgid "Check that all the requirements below."
+msgstr ""
+
+#: core/core-translate.php:47
+msgid "WordPress environment"
+msgstr ""
+
+#: core/core-translate.php:49
+msgid "It is recommended to update WordPress to the latest version"
+msgstr ""
+
+#: core/core-translate.php:51
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: core/core-translate.php:53
+#, php-format
+msgid "It is recommended to increase your WP memory limit to %s at least"
+msgstr ""
+
+#: core/core-translate.php:55
+msgid "WP Memory Limit"
+msgstr ""
+
+#: core/core-translate.php:57
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: core/core-translate.php:59
+msgid "Server environment"
+msgstr ""
+
+#: core/core-translate.php:61
+msgid "The theme needs at least PHP 7 installed on your server."
+msgstr ""
+
+#: core/core-translate.php:63
+msgid ""
+"We recommend using PHP version 7.2 or above for greater performance and "
+"security."
+msgstr ""
+
+#: core/core-translate.php:65
+msgid "PHP Version"
+msgstr ""
+
+#: core/core-translate.php:67
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: core/core-translate.php:69
+#, php-format
+msgid "It is recommended to increase your max_input_var value to %s at least"
+msgstr ""
+
+#: core/core-translate.php:71
+msgid "Max Input Vars"
+msgstr ""
+
+#: core/core-translate.php:73
+msgid ""
+"The maximum amount of variable your server can use for a single function."
+msgstr ""
+
+#: core/core-translate.php:75
+#, php-format
+msgid ""
+"It is recommended to increase your max_execution_time value to %s at least"
+msgstr ""
+
+#: core/core-translate.php:77
+msgid "PHP Time Limit"
+msgstr ""
+
+#: core/core-translate.php:79
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)."
+msgstr ""
+
+#: core/core-translate.php:81
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: core/core-translate.php:83
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: core/core-translate.php:85
+#, php-format
+msgid "It is recommended to increase your server memory limit to %s at least"
+msgstr ""
+
+#: core/core-translate.php:87
+msgid "Server Memory Limit"
+msgstr ""
+
+#: core/core-translate.php:89
+msgid ""
+"The maximum amount of memory (RAM) that your server can use at one time."
+msgstr ""
+
+#: core/core-translate.php:91
+msgid "Max Upload Size"
+msgstr ""
+
+#: core/core-translate.php:93
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: core/core-translate.php:97
+msgid "WordPress version"
+msgstr ""
+
+#: core/core-translate.php:101
+msgid "Sort Items"
+msgstr ""
+
+#: core/core-translate.php:103
+msgid "Edit Post"
+msgstr ""
+
+#: core/core-translate.php:107
+msgid "Demos"
+msgstr ""
+
+#: core/core-translate.php:109
+msgid ""
+"Before you begin, you need to install and activate the following plugins"
+msgstr ""
+
+#: core/core-translate.php:111
+msgid "Install Plugins"
+msgstr ""
+
+#: core/core-translate.php:113
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. Before running the "
+"importer, make sure that you have installed and activated the required and "
+"recommended plugins. You will see a message at the bottom of this page if "
+"you have not yet done so. When you import the data following things will "
+"happen:"
+msgstr ""
+
+#: core/core-translate.php:115
+msgid ""
+"All widgets located in primary sidebar will be removed, please move them to "
+"another sidebar."
+msgstr ""
+
+#: core/core-translate.php:117
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: core/core-translate.php:119
+msgid "No WordPress settings will be modified."
+msgstr ""
+
+#: core/core-translate.php:121
+msgid "Posts, pages, some images, some widgets and menus will get imported."
+msgstr ""
+
+#: core/core-translate.php:123
+msgid "Images will be downloaded from our server."
+msgstr ""
+
+#: core/core-translate.php:125
+msgid "Please click import only once and wait."
+msgstr ""
+
+#: core/core-translate.php:127
+msgid ""
+"Be patient and wait for the import process to complete. It can take up to "
+"5-7 minutes."
+msgstr ""
+
+#: core/core-translate.php:129
+msgid ""
+"I agree that all media elements of demo content like images, videos and mp3 "
+"files will be downloaded from the third-party server (rascalsthemes.com)."
+msgstr ""
+
+#: core/core-translate.php:131
+msgid "Import Again"
+msgstr ""
+
+#: core/core-translate.php:133
+msgid "Import"
+msgstr ""
+
+#: core/core-translate.php:135
+msgid "Well Done! Demo content has been imported."
+msgstr ""
+
+#: core/core-translate.php:137
+msgid ""
+"The XML file containing the dummy content is not available or could not be "
+"read .. You might want to try to set the file permission to chmod 755. If "
+"this doesn't work please use the Wordpress importer and import the XML file "
+"(should be located in your download .zip: Sample Content folder) manually."
+msgstr ""
+
+#: core/core-translate.php:139
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: core/core-translate.php:141
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: core/core-translate.php:143
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: core/core-translate.php:145
+msgid "Site does not support widget"
+msgstr ""
+
+#: core/core-translate.php:147
+msgid "Widget already exists"
+msgstr ""
+
+#: core/core-translate.php:149
+msgid "Imported"
+msgstr ""
+
+#: core/core-translate.php:151
+msgid "Imported to Inactive"
+msgstr ""
+
+#: core/core-translate.php:153
+msgid "No Title"
+msgstr ""
+
+#: core/core-translate.php:157
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: core/core-translate.php:159
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: core/core-translate.php:161
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: core/core-translate.php:165 core/core-translate.php:175
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: core/core-translate.php:167
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: core/core-translate.php:169
+msgid "All done."
+msgstr ""
+
+#: core/core-translate.php:171
+msgid "Have fun!"
+msgstr ""
+
+#: core/core-translate.php:173
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: core/core-translate.php:177
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: core/core-translate.php:179
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: core/core-translate.php:181
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: core/core-translate.php:183
+msgid "Assign Authors"
+msgstr ""
+
+#: core/core-translate.php:185
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: core/core-translate.php:187
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: core/core-translate.php:189
+msgid "Import Attachments"
+msgstr ""
+
+#: core/core-translate.php:191
+msgid "Download and import file attachments"
+msgstr ""
+
+#: core/core-translate.php:193
+msgid "Submit"
+msgstr ""
+
+#: core/core-translate.php:195
+msgid "Import author:"
+msgstr ""
+
+#: core/core-translate.php:197
+msgid "or create new user with login name:"
+msgstr ""
+
+#: core/core-translate.php:199
+msgid "as a new user:"
+msgstr ""
+
+#: core/core-translate.php:201
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: core/core-translate.php:203
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: core/core-translate.php:205 options/king-composer/class-kc.php:3834
+msgid "- Select -"
+msgstr ""
+
+#: core/core-translate.php:207
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: core/core-translate.php:209
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: core/core-translate.php:211
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: core/core-translate.php:213
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: core/core-translate.php:215
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: core/core-translate.php:217
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: core/core-translate.php:219
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: core/core-translate.php:221
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: core/core-translate.php:223
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: core/core-translate.php:225
+msgid "Could not create temporary file."
+msgstr ""
+
+#: core/core-translate.php:227
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: core/core-translate.php:229
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: core/core-translate.php:231
+msgid "Remote server did not respond"
+msgstr ""
+
+#: core/core-translate.php:233
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: core/core-translate.php:235
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: core/core-translate.php:237
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: core/core-translate.php:239
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: core/core-translate.php:241
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: core/core-translate.php:243
+msgid "Import WordPress"
+msgstr ""
+
+#: core/core-translate.php:245
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: core/core-translate.php:247
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: core/core-translate.php:249
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: core/core-translate.php:251
+msgid "Invalid file type"
+msgstr ""
+
+#: core/core-translate.php:257
+#: options/metaboxes/boxes/media-manager-panels.php:265
+#: options/metaboxes/boxes/media-manager-panels.php:322
+msgid "Media libary"
+msgstr ""
+
+#: core/core-translate.php:259
+#: options/metaboxes/boxes/media-manager-panels.php:266
+#: options/metaboxes/boxes/media-manager-panels.php:323
+msgid "External link"
+msgstr ""
+
+#: core/core-translate.php:261 core/core-translate.php:271
+#: core/core-translate.php:279
+#: options/metaboxes/boxes/media-manager-panels.php:276
+#: options/metaboxes/boxes/media-manager-panels.php:333
+#: options/metaboxes/boxes/media-manager-panels.php:1289
+msgid "Preview Image"
+msgstr ""
+
+#: core/core-translate.php:265
+msgid "Add Background"
+msgstr ""
+
+#: core/core-translate.php:267
+msgid "Edit Background"
+msgstr ""
+
+#: core/core-translate.php:269 core/core-translate.php:309
+#: options/scamp-player/class-scamp-player.php:128
+msgid "Remove"
+msgstr ""
+
+#: core/core-translate.php:273
+msgid ""
+"Set your background again, because current is not compatible with latest "
+"framework version."
+msgstr ""
+
+#: core/core-translate.php:275 options/king-composer/class-kc.php:230
+#: options/king-composer/class-kc.php:404
+#: options/king-composer/class-kc.php:573
+#: options/king-composer/class-kc.php:726
+#: options/king-composer/class-kc.php:980
+#: options/king-composer/class-kc.php:1120
+#: options/king-composer/class-kc.php:1318
+#: options/king-composer/class-kc.php:1452
+#: options/king-composer/class-kc.php:1528
+#: options/king-composer/class-kc.php:1621
+#: options/king-composer/class-kc.php:1776
+#: options/king-composer/class-kc.php:1844
+#: options/king-composer/class-kc.php:1988
+#: options/king-composer/class-kc.php:2068
+#: options/king-composer/class-kc.php:2238
+#: options/king-composer/class-kc.php:2378
+#: options/king-composer/class-kc.php:2564
+#: options/king-composer/class-kc.php:2757
+#: options/king-composer/class-kc.php:2952
+#: options/king-composer/class-kc.php:3032
+#: options/king-composer/class-kc.php:3173
+#: options/king-composer/class-kc.php:3328
+#: options/king-composer/class-kc.php:3411
+#: options/king-composer/class-kc.php:3528
+#: options/king-composer/class-kc.php:3616
+#: options/king-composer/class-kc.php:3770
+#: options/king-composer/class-kc.php:3947
+#: options/king-composer/class-kc.php:4235
+#: options/king-composer/class-kc.php:4628
+msgid "Background Color"
+msgstr ""
+
+#: core/core-translate.php:277 options/king-composer/class-kc.php:4265
+#: options/king-composer/class-kc.php:4332
+#: options/king-composer/class-kc.php:4398
+#: options/king-composer/class-kc.php:4464
+#: options/king-composer/class-kc.php:4530
+#: options/metaboxes/boxes/media-manager-panels.php:1276
+msgid "Background Image"
+msgstr ""
+
+#: core/core-translate.php:281
+msgid "Background Position"
+msgstr ""
+
+#: core/core-translate.php:283
+msgid ""
+"The background-position property sets the starting position of a background "
+"image. The first value is the horizontal position and the second value is "
+"the vertical. The top left corner is 0 0."
+msgstr ""
+
+#: core/core-translate.php:285
+msgid "Background Repeat"
+msgstr ""
+
+#: core/core-translate.php:287
+msgid ""
+"The background-repeat property sets if/how a background image will be "
+"repeated."
+msgstr ""
+
+#: core/core-translate.php:289
+msgid "Background Attachment"
+msgstr ""
+
+#: core/core-translate.php:291
+msgid ""
+"The background-attachment property sets whether a background image is fixed "
+"or scrolls with the rest of the page."
+msgstr ""
+
+#: core/core-translate.php:293
+msgid "Background Size"
+msgstr ""
+
+#: core/core-translate.php:295
+msgid ""
+"The background-size property specifies the size of the background images."
+msgstr ""
+
+#: core/core-translate.php:299
+msgid "Open link in new window/tab: "
+msgstr ""
+
+#: core/core-translate.php:301
+msgid "Insert Link"
+msgstr ""
+
+#: core/core-translate.php:303 core/core-translate.php:335
+#: options/post-types/class-artists.php:69
+#: options/post-types/class-gallery.php:85
+#: options/post-types/class-music.php:69
+#: options/post-types/class-tracks-libary.php:69
+#: options/post-types/class-videos.php:69
+msgid "Search"
+msgstr ""
+
+#: core/core-translate.php:307
+msgid "Generate Iframe"
+msgstr ""
+
+#: core/core-translate.php:311
+msgid "Error: Content does not contain the iframe."
+msgstr ""
+
+#: core/core-translate.php:313
+msgid "Iframe Code"
+msgstr ""
+
+#: core/core-translate.php:315
+msgid "Paste Iframe code here."
+msgstr ""
+
+#: core/core-translate.php:319
+msgid "Select All"
+msgstr ""
+
+#: core/core-translate.php:321
+msgid "Error: Image file doesn't exists."
+msgstr ""
+
+#: core/core-translate.php:323
+msgid "Error: AJAX Transport"
+msgstr ""
+
+#: core/core-translate.php:325
+msgid "Remove Selected Items"
+msgstr ""
+
+#: core/core-translate.php:327
+msgid "Remove Selected"
+msgstr ""
+
+#: core/core-translate.php:329
+msgid "Save"
+msgstr ""
+
+#: core/core-translate.php:331
+msgid "Edit/Close"
+msgstr ""
+
+#: core/core-translate.php:333
+msgid "Select"
+msgstr ""
+
+#: core/core-translate.php:337
+msgid "Select All:"
+msgstr ""
+
+#: core/core-translate.php:339
+msgid "Load Next 30 Items"
+msgstr ""
+
+#: core/core-translate.php:341
+msgid "Error!"
+msgstr ""
+
+#: core/core-translate.php:345
+msgid "Error: ID: Is not defined!"
+msgstr ""
+
+#: core/core-translate.php:347
+msgid "Edit original tracklist here."
+msgstr ""
+
+#: core/core-translate.php:349
+msgid "Remove Track"
+msgstr ""
+
+#: meloo-toolkit.php:291
+msgid "Theme Settings"
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:92
+msgid ""
+"Please install the Kirki plugin to take full advantage of this theme\\s "
+"customizer capabilities"
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:94
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:95
+msgid "Install Now"
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:108
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:110
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: options/customizer/class-customizer-install.php:111
+msgid "Activate Now"
+msgstr ""
+
+#: options/customizer/class-customizer.php:115
+msgid "Narrow"
+msgstr ""
+
+#: options/customizer/class-customizer.php:116
+msgid "Wide"
+msgstr ""
+
+#: options/customizer/class-customizer.php:117
+#: options/metaboxes/boxes/artists.php:252 options/metaboxes/boxes/blog.php:110
+#: options/metaboxes/boxes/common.php:91 options/metaboxes/boxes/events.php:388
+#: options/metaboxes/boxes/gallery.php:273
+#: options/metaboxes/boxes/music.php:282 options/metaboxes/boxes/post.php:71
+#: options/metaboxes/boxes/videos.php:242
+msgid "Sidebar Left"
+msgstr ""
+
+#: options/customizer/class-customizer.php:118
+#: options/metaboxes/boxes/artists.php:267 options/metaboxes/boxes/blog.php:125
+#: options/metaboxes/boxes/common.php:106
+#: options/metaboxes/boxes/events.php:403
+#: options/metaboxes/boxes/gallery.php:288
+#: options/metaboxes/boxes/music.php:297 options/metaboxes/boxes/post.php:81
+#: options/metaboxes/boxes/videos.php:257
+msgid "Sidebar Right"
+msgstr ""
+
+#: options/customizer/class-customizer.php:122
+#: options/customizer/class-customizer.php:133
+#: options/king-composer/class-kc.php:137
+#: options/king-composer/class-kc.php:620
+#: options/king-composer/class-kc.php:1027
+#: options/metaboxes/boxes/artists.php:331 options/metaboxes/boxes/blog.php:175
+#: options/metaboxes/boxes/gallery.php:339
+#: options/metaboxes/boxes/music.php:361 options/metaboxes/boxes/videos.php:308
+msgid "Block 1"
+msgstr ""
+
+#: options/customizer/class-customizer.php:123
+#: options/customizer/class-customizer.php:134
+#: options/metaboxes/boxes/artists.php:336 options/metaboxes/boxes/blog.php:180
+#: options/metaboxes/boxes/events.php:473
+#: options/metaboxes/boxes/gallery.php:344
+#: options/metaboxes/boxes/music.php:366 options/metaboxes/boxes/videos.php:313
+msgid "Block 2"
+msgstr ""
+
+#: options/customizer/class-customizer.php:124
+#: options/customizer/class-customizer.php:135
+#: options/metaboxes/boxes/artists.php:341 options/metaboxes/boxes/blog.php:185
+#: options/metaboxes/boxes/events.php:478
+#: options/metaboxes/boxes/gallery.php:349
+#: options/metaboxes/boxes/music.php:371 options/metaboxes/boxes/videos.php:318
+msgid "Block 3"
+msgstr ""
+
+#: options/customizer/class-customizer.php:125
+#: options/customizer/class-customizer.php:136
+#: options/king-composer/class-kc.php:2128
+#: options/king-composer/class-kc.php:2306 options/metaboxes/boxes/blog.php:190
+#: options/metaboxes/boxes/events.php:483 options/metaboxes/boxes/music.php:376
+msgid "Block 4"
+msgstr ""
+
+#: options/customizer/class-customizer.php:126
+#: options/customizer/class-customizer.php:137
+#: options/king-composer/class-kc.php:2129
+#: options/king-composer/class-kc.php:2307 options/metaboxes/boxes/blog.php:195
+#: options/metaboxes/boxes/music.php:381
+msgid "Block 5"
+msgstr ""
+
+#: options/customizer/class-customizer.php:127
+#: options/customizer/class-customizer.php:138
+#: options/king-composer/class-kc.php:2308 options/metaboxes/boxes/blog.php:200
+#: options/metaboxes/boxes/music.php:386
+msgid "Block 6"
+msgstr ""
+
+#: options/customizer/class-customizer.php:128
+#: options/customizer/class-customizer.php:139
+#: options/king-composer/class-kc.php:2309 options/metaboxes/boxes/blog.php:205
+msgid "Block 7"
+msgstr ""
+
+#: options/customizer/class-customizer.php:132
+msgid "Term"
+msgstr ""
+
+#: options/customizer/class-customizer.php:140
+#: options/metaboxes/boxes/blog.php:210
+msgid "Block 8"
+msgstr ""
+
+#: options/customizer/class-customizer.php:141
+#: options/metaboxes/boxes/blog.php:215
+msgid "Block 9"
+msgstr ""
+
+#: options/customizer/class-customizer.php:142
+#: options/metaboxes/boxes/blog.php:220
+msgid "Block 10"
+msgstr ""
+
+#: options/customizer/class-customizer.php:143
+#: options/metaboxes/boxes/blog.php:225
+msgid "Block 11"
+msgstr ""
+
+#: options/customizer/class-customizer.php:151
+msgid "Colors"
+msgstr ""
+
+#: options/customizer/class-customizer.php:163
+msgid "Main Color Scheme"
+msgstr ""
+
+#: options/customizer/class-customizer.php:170
+#: options/customizer/class-customizer.php:187
+#: options/customizer/class-customizer.php:203
+#: options/customizer/class-customizer.php:220
+#: options/customizer/class-customizer.php:237
+#: options/king-composer/class-kc.php:235
+#: options/king-composer/class-kc.php:409
+#: options/king-composer/class-kc.php:578
+#: options/king-composer/class-kc.php:731
+#: options/king-composer/class-kc.php:985
+#: options/king-composer/class-kc.php:1125
+#: options/king-composer/class-kc.php:1323
+#: options/king-composer/class-kc.php:1457
+#: options/king-composer/class-kc.php:1533
+#: options/king-composer/class-kc.php:1626
+#: options/king-composer/class-kc.php:1781
+#: options/king-composer/class-kc.php:1849
+#: options/king-composer/class-kc.php:1993
+#: options/king-composer/class-kc.php:2073
+#: options/king-composer/class-kc.php:2243
+#: options/king-composer/class-kc.php:2383
+#: options/king-composer/class-kc.php:2569
+#: options/king-composer/class-kc.php:2762
+#: options/king-composer/class-kc.php:2957
+#: options/king-composer/class-kc.php:3037
+#: options/king-composer/class-kc.php:3178
+#: options/king-composer/class-kc.php:3333
+#: options/king-composer/class-kc.php:3416
+#: options/king-composer/class-kc.php:3533
+#: options/king-composer/class-kc.php:3621
+#: options/king-composer/class-kc.php:3775
+#: options/king-composer/class-kc.php:3952
+#: options/king-composer/class-kc.php:4240
+#: options/king-composer/class-kc.php:4633
+msgid "Dark"
+msgstr ""
+
+#: options/customizer/class-customizer.php:171
+#: options/customizer/class-customizer.php:188
+#: options/customizer/class-customizer.php:204
+#: options/customizer/class-customizer.php:221
+#: options/customizer/class-customizer.php:238
+#: options/king-composer/class-kc.php:236
+#: options/king-composer/class-kc.php:410
+#: options/king-composer/class-kc.php:579
+#: options/king-composer/class-kc.php:732
+#: options/king-composer/class-kc.php:986
+#: options/king-composer/class-kc.php:1126
+#: options/king-composer/class-kc.php:1324
+#: options/king-composer/class-kc.php:1458
+#: options/king-composer/class-kc.php:1534
+#: options/king-composer/class-kc.php:1627
+#: options/king-composer/class-kc.php:1782
+#: options/king-composer/class-kc.php:1850
+#: options/king-composer/class-kc.php:1994
+#: options/king-composer/class-kc.php:2074
+#: options/king-composer/class-kc.php:2244
+#: options/king-composer/class-kc.php:2384
+#: options/king-composer/class-kc.php:2570
+#: options/king-composer/class-kc.php:2763
+#: options/king-composer/class-kc.php:2958
+#: options/king-composer/class-kc.php:3038
+#: options/king-composer/class-kc.php:3179
+#: options/king-composer/class-kc.php:3334
+#: options/king-composer/class-kc.php:3417
+#: options/king-composer/class-kc.php:3534
+#: options/king-composer/class-kc.php:3622
+#: options/king-composer/class-kc.php:3776
+#: options/king-composer/class-kc.php:3953
+#: options/king-composer/class-kc.php:4241
+#: options/king-composer/class-kc.php:4634
+msgid "Light"
+msgstr ""
+
+#: options/customizer/class-customizer.php:180
+msgid "Header Scheme"
+msgstr ""
+
+#: options/customizer/class-customizer.php:196
+msgid "Mobile Menu Scheme"
+msgstr ""
+
+#: options/customizer/class-customizer.php:213
+msgid "Footer Scheme"
+msgstr ""
+
+#: options/customizer/class-customizer.php:230
+msgid "Preloader Scheme"
+msgstr ""
+
+#: options/customizer/class-customizer.php:247
+msgid "Accent Color"
+msgstr ""
+
+#: options/customizer/class-customizer.php:406
+msgid "One Page Options"
+msgstr ""
+
+#: options/customizer/class-customizer.php:418
+msgid "Select One Page"
+msgstr ""
+
+#: options/customizer/class-customizer.php:430
+msgid "Loading Options"
+msgstr ""
+
+#: options/customizer/class-customizer.php:442
+msgid "Loading Animation"
+msgstr ""
+
+#: options/customizer/class-customizer.php:455
+msgid "Loader Image"
+msgstr ""
+
+#: options/customizer/class-customizer.php:467
+msgid "Loader Style"
+msgstr ""
+
+#: options/customizer/class-customizer.php:474
+msgid "Stripes"
+msgstr ""
+
+#: options/customizer/class-customizer.php:475
+msgid "Bars Curtain"
+msgstr ""
+
+#: options/customizer/class-customizer.php:477
+msgid "Select loader animation style."
+msgstr ""
+
+#: options/customizer/class-customizer.php:485
+#: options/king-composer/class-kc.php:3836
+msgid "Header"
+msgstr ""
+
+#: options/customizer/class-customizer.php:489
+msgid "This panel will provide all the options of the header."
+msgstr ""
+
+#: options/customizer/class-customizer.php:498
+msgid "Header Style"
+msgstr ""
+
+#: options/customizer/class-customizer.php:505
+msgid "Left Black"
+msgstr ""
+
+#: options/customizer/class-customizer.php:514
+msgid "Logo"
+msgstr ""
+
+#: options/customizer/class-customizer.php:527
+msgid "Logo (Hero Image)"
+msgstr ""
+
+#: options/customizer/class-customizer.php:533
+msgid ""
+"This Logo image will be displayed on transparent background on hero header "
+"image."
+msgstr ""
+
+#: options/customizer/class-customizer.php:541
+msgid "Logo (Mobile Menu)"
+msgstr ""
+
+#: options/customizer/class-customizer.php:547
+msgid "This Logo image will be displayed on mobile (responsive) menu."
+msgstr ""
+
+#: options/customizer/class-customizer.php:555
+#: options/customizer/class-customizer.php:567
+msgid "Display Search Button"
+msgstr ""
+
+#: options/customizer/class-customizer.php:579
+msgid "Display Cart"
+msgstr ""
+
+#: options/customizer/class-customizer.php:585
+msgid ""
+"Display cart icon in header. Please note WOOCOMMERCE plugin must be "
+"installed."
+msgstr ""
+
+#: options/customizer/class-customizer.php:593
+#: options/customizer/class-customizer.php:1093
+msgid "Social Buttons"
+msgstr ""
+
+#: options/customizer/class-customizer.php:600
+#: options/customizer/class-customizer.php:1100
+msgid "Social Button:"
+msgstr ""
+
+#: options/customizer/class-customizer.php:628
+#: options/customizer/class-customizer.php:1081
+#: options/customizer/class-customizer.php:1129
+msgid "Social Media"
+msgstr ""
+
+#: options/customizer/class-customizer.php:629
+#: options/customizer/class-customizer.php:1130
+msgid "Select your social media button"
+msgstr ""
+
+#: options/customizer/class-customizer.php:635
+#: options/customizer/class-customizer.php:1136
+#: options/king-composer/class-kc.php:1952
+#: options/metaboxes/boxes/media-manager-panels.php:932
+#: options/metaboxes/boxes/media-manager-panels.php:1179
+msgid "Link"
+msgstr ""
+
+#: options/customizer/class-customizer.php:636
+#: options/customizer/class-customizer.php:1137
+msgid "Type your social link"
+msgstr ""
+
+#: options/customizer/class-customizer.php:648
+msgid "Sidebars"
+msgstr ""
+
+#: options/customizer/class-customizer.php:649
+msgid "This panel will provide all the options of the sidebar and slidebar."
+msgstr ""
+
+#: options/customizer/class-customizer.php:659
+#: options/king-composer/class-kc.php:3835
+msgid "Sidebar"
+msgstr ""
+
+#: options/customizer/class-customizer.php:673
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: options/customizer/class-customizer.php:679
+msgid ""
+"From here you can enable and disable the sticky sidebar on all the "
+"templates. The sticky sidebar that has auto resize and it scrolls with the "
+"content. The sticky_sidebar reverts back to a normal sidebar on iOS (iPad) "
+"and on mobile devices. If you plan to use Google AdSense in the sidebar "
+"don't enable this feature. Google's policy doesn't allow placing the ad in a "
+"\"floating box\", you can read more about it "
+msgstr ""
+
+#: options/customizer/class-customizer.php:679
+msgid "here"
+msgstr ""
+
+#: options/customizer/class-customizer.php:687
+msgid "Single Post"
+msgstr ""
+
+#: options/customizer/class-customizer.php:692
+msgid "Single Post default options."
+msgstr ""
+
+#: options/customizer/class-customizer.php:700
+#: options/king-composer/class-kc.php:1891
+#: options/king-composer/class-kc.php:3996
+msgid "Share Buttons"
+msgstr ""
+
+#: options/customizer/class-customizer.php:707
+msgid "Enable or disable the share block."
+msgstr ""
+
+#: options/customizer/class-customizer.php:714
+msgid "Show Author Box"
+msgstr ""
+
+#: options/customizer/class-customizer.php:721
+msgid "Enable or disable the author box (bottom of single post pages)."
+msgstr ""
+
+#: options/customizer/class-customizer.php:728
+#: options/metaboxes/boxes/post.php:380 options/metaboxes/boxes/post.php:386
+msgid "Related Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:735
+msgid ""
+"Enable or disable the related posts section (bottom of single post pages)."
+msgstr ""
+
+#: options/customizer/class-customizer.php:742
+msgid "Related Posts - Display By"
+msgstr ""
+
+#: options/customizer/class-customizer.php:750
+msgid "Tags"
+msgstr ""
+
+#: options/customizer/class-customizer.php:751
+#: options/customizer/class-customizer.php:789
+#: options/metaboxes/boxes/artists.php:522
+#: options/metaboxes/boxes/artists.php:555
+#: options/metaboxes/boxes/artists.php:588
+#: options/metaboxes/boxes/artists.php:622
+#: options/metaboxes/boxes/events.php:678
+#: options/metaboxes/boxes/events.php:711
+#: options/metaboxes/boxes/events.php:744
+#: options/metaboxes/boxes/gallery.php:525
+#: options/metaboxes/boxes/gallery.php:558
+#: options/metaboxes/boxes/gallery.php:591
+#: options/metaboxes/boxes/gallery.php:625
+#: options/metaboxes/boxes/music.php:566 options/metaboxes/boxes/music.php:599
+#: options/metaboxes/boxes/music.php:632 options/metaboxes/boxes/music.php:666
+#: options/metaboxes/boxes/videos.php:520
+#: options/metaboxes/boxes/videos.php:553
+#: options/metaboxes/boxes/videos.php:586
+#: options/metaboxes/boxes/videos.php:620
+msgid "Categories"
+msgstr ""
+
+#: options/customizer/class-customizer.php:753
+#: options/metaboxes/boxes/post.php:408
+msgid "How to display the related posts:"
+msgstr ""
+
+#: options/customizer/class-customizer.php:753
+#: options/metaboxes/boxes/post.php:408
+msgid ""
+"by category - display posts from that have at least one category in common "
+"with the current post."
+msgstr ""
+
+#: options/customizer/class-customizer.php:753
+#: options/metaboxes/boxes/post.php:408
+msgid ""
+"by tags - display posts that have at least one tag in common with the "
+"current post."
+msgstr ""
+
+#: options/customizer/class-customizer.php:760
+msgid "Related Posts - Show Navigation"
+msgstr ""
+
+#: options/customizer/class-customizer.php:767
+msgid "Enable or disable related posts navigatio arrows."
+msgstr ""
+
+#: options/customizer/class-customizer.php:774
+msgid "Show Facebook Sharing"
+msgstr ""
+
+#: options/customizer/class-customizer.php:781
+msgid "Show or hide Facebook share options (head tags)."
+msgstr ""
+
+#: options/customizer/class-customizer.php:794
+msgid "Options for Category, Tags, Author, Archives, Search pages."
+msgstr ""
+
+#: options/customizer/class-customizer.php:802
+#: options/metaboxes/boxes/artists.php:352 options/metaboxes/boxes/blog.php:237
+#: options/metaboxes/boxes/events.php:494
+#: options/metaboxes/boxes/gallery.php:360
+#: options/metaboxes/boxes/music.php:397 options/metaboxes/boxes/videos.php:328
+msgid "Pagination Method"
+msgstr ""
+
+#: options/customizer/class-customizer.php:809
+#: options/metaboxes/boxes/artists.php:357 options/metaboxes/boxes/blog.php:242
+#: options/metaboxes/boxes/events.php:499
+#: options/metaboxes/boxes/gallery.php:365
+#: options/metaboxes/boxes/music.php:402 options/metaboxes/boxes/videos.php:333
+msgid "Next/Prev Pagination"
+msgstr ""
+
+#: options/customizer/class-customizer.php:810
+#: options/king-composer/class-kc.php:168
+#: options/king-composer/class-kc.php:664
+#: options/king-composer/class-kc.php:1058
+#: options/king-composer/class-kc.php:1714
+#: options/king-composer/class-kc.php:2176
+#: options/metaboxes/boxes/artists.php:358 options/metaboxes/boxes/blog.php:243
+#: options/metaboxes/boxes/events.php:500
+#: options/metaboxes/boxes/gallery.php:366
+#: options/metaboxes/boxes/music.php:403 options/metaboxes/boxes/videos.php:334
+msgid "Load More Button"
+msgstr ""
+
+#: options/customizer/class-customizer.php:811
+#: options/metaboxes/boxes/artists.php:359 options/metaboxes/boxes/blog.php:244
+#: options/metaboxes/boxes/events.php:501
+#: options/metaboxes/boxes/gallery.php:367
+#: options/metaboxes/boxes/music.php:404 options/metaboxes/boxes/videos.php:335
+msgid "Infinite Load"
+msgstr ""
+
+#: options/customizer/class-customizer.php:813
+#: options/metaboxes/boxes/artists.php:361 options/metaboxes/boxes/blog.php:246
+#: options/metaboxes/boxes/events.php:503
+#: options/metaboxes/boxes/gallery.php:173
+#: options/metaboxes/boxes/gallery.php:369
+#: options/metaboxes/boxes/music.php:406 options/metaboxes/boxes/videos.php:337
+msgid "Select pagination method."
+msgstr ""
+
+#: options/customizer/class-customizer.php:821
+msgid "Category Layout"
+msgstr ""
+
+#: options/customizer/class-customizer.php:828
+msgid "Select category layout."
+msgstr ""
+
+#: options/customizer/class-customizer.php:832
+msgid "Category Display View"
+msgstr ""
+
+#: options/customizer/class-customizer.php:839
+#: options/customizer/class-customizer.php:880
+#: options/customizer/class-customizer.php:921
+#: options/customizer/class-customizer.php:962
+msgid "Select display view block."
+msgstr ""
+
+#: options/customizer/class-customizer.php:843
+msgid "Category: Number Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:854
+#: options/customizer/class-customizer.php:895
+#: options/customizer/class-customizer.php:936
+#: options/customizer/class-customizer.php:977
+#: options/customizer/class-customizer.php:1007
+msgid "Set the number posts to show."
+msgstr ""
+
+#: options/customizer/class-customizer.php:862
+msgid "Tag Layout"
+msgstr ""
+
+#: options/customizer/class-customizer.php:869
+msgid "Select tag layout."
+msgstr ""
+
+#: options/customizer/class-customizer.php:873
+msgid "Tag Display View"
+msgstr ""
+
+#: options/customizer/class-customizer.php:884
+msgid "Tags: Number Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:903
+msgid "Author Layout"
+msgstr ""
+
+#: options/customizer/class-customizer.php:910
+msgid "Select author layout."
+msgstr ""
+
+#: options/customizer/class-customizer.php:914
+msgid "Author Display View"
+msgstr ""
+
+#: options/customizer/class-customizer.php:925
+msgid "Author: Number Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:944
+msgid "Archive Layout"
+msgstr ""
+
+#: options/customizer/class-customizer.php:951
+msgid "Select layout."
+msgstr ""
+
+#: options/customizer/class-customizer.php:955
+msgid "Archive Display View"
+msgstr ""
+
+#: options/customizer/class-customizer.php:966
+msgid "Archive: Number Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:985
+msgid "Search Layout"
+msgstr ""
+
+#: options/customizer/class-customizer.php:992
+msgid "Select search layout."
+msgstr ""
+
+#: options/customizer/class-customizer.php:996
+msgid "Search: Number Posts"
+msgstr ""
+
+#: options/customizer/class-customizer.php:1016
+#: options/king-composer/class-kc.php:3837
+msgid "Footer"
+msgstr ""
+
+#: options/customizer/class-customizer.php:1017
+msgid "This panel will provide all the options of the footer."
+msgstr ""
+
+#: options/customizer/class-customizer.php:1025
+msgid "Footer Sections/Widgets"
+msgstr ""
+
+#: options/customizer/class-customizer.php:1037
+#: options/customizer/class-customizer.php:1152
+#: options/metaboxes/metaboxes.php:234 options/post-types/class-posts.php:220
+msgid "Select Section"
+msgstr ""
+
+#: options/customizer/class-customizer.php:1044
+msgid ""
+"You can add your own King Composer Section here. Sections are created in "
+"King Composer > Sections Manager."
+msgstr ""
+
+#: options/customizer/class-customizer.php:1054
+#: options/customizer/class-customizer.php:1066
+msgid "Copyright Text"
+msgstr ""
+
+#: options/importer/class-importer.php:250
+msgid ""
+"KingComposer - The most professional WordPress page builder plugin, it's "
+"weight and high efficiency to help you build any layout design quickly."
+msgstr ""
+
+#: options/importer/class-importer.php:254
+msgid "Kirki - Theme customization options."
+msgstr ""
+
+#: options/importer/class-importer.php:258
+msgid ""
+"Meloo Toolkit - This is a complimentary plugin for the Rascals WordPress "
+"themes. You can use it to create, manage and update Custom Posts Types, "
+"Widgets, Modules, Customizer Options."
+msgstr ""
+
+#: options/king-composer/class-kc.php:100
+msgid "Revolution Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:101
+#: options/king-composer/class-kc.php:284
+#: options/king-composer/class-kc.php:440
+msgid "Display videos in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:107
+msgid "Select Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:112
+msgid ""
+"Select Revolution Slider. Note: Revolution Slider doesn't refresh on visual "
+"mode. Please save and refesh manually your page to see slider."
+msgstr ""
+
+#: options/king-composer/class-kc.php:125
+msgid "Artists Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:126
+msgid ""
+"Display an extremely impressive artists profiles with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:132
+#: options/king-composer/class-kc.php:615
+#: options/king-composer/class-kc.php:1022
+#: options/king-composer/class-kc.php:1677
+#: options/king-composer/class-kc.php:2120
+#: options/king-composer/class-kc.php:2298
+msgid "Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:139
+#: options/king-composer/class-kc.php:622
+#: options/king-composer/class-kc.php:1029
+#: options/king-composer/class-kc.php:1590
+#: options/king-composer/class-kc.php:1685
+#: options/king-composer/class-kc.php:2131
+#: options/king-composer/class-kc.php:2311
+msgid "Select posts block."
+msgstr ""
+
+#: options/king-composer/class-kc.php:143
+msgid "Artists on Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:148
+msgid "1 Artist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:149
+msgid "2 Artists"
+msgstr ""
+
+#: options/king-composer/class-kc.php:150
+msgid "3 Artists"
+msgstr ""
+
+#: options/king-composer/class-kc.php:151
+msgid "4 Artists"
+msgstr ""
+
+#: options/king-composer/class-kc.php:152
+msgid "5 Artists"
+msgstr ""
+
+#: options/king-composer/class-kc.php:154
+#: options/king-composer/class-kc.php:650
+#: options/king-composer/class-kc.php:1044
+#: options/king-composer/class-kc.php:1372
+#: options/king-composer/class-kc.php:1700
+#: options/king-composer/class-kc.php:2146
+msgid "Select number of items per row."
+msgstr ""
+
+#: options/king-composer/class-kc.php:162
+#: options/king-composer/class-kc.php:658
+#: options/king-composer/class-kc.php:1052
+#: options/king-composer/class-kc.php:1708
+#: options/king-composer/class-kc.php:2170
+msgid "Ajax Pagination"
+msgstr ""
+
+#: options/king-composer/class-kc.php:167
+#: options/king-composer/class-kc.php:184
+#: options/king-composer/class-kc.php:663
+#: options/king-composer/class-kc.php:680
+#: options/king-composer/class-kc.php:1057
+#: options/king-composer/class-kc.php:1074
+#: options/king-composer/class-kc.php:1713
+#: options/king-composer/class-kc.php:1730
+#: options/king-composer/class-kc.php:2175
+#: options/king-composer/class-kc.php:2192
+#: options/king-composer/class-kc.php:3312
+#: options/king-composer/class-kc.php:4290
+#: options/king-composer/class-kc.php:4357
+#: options/king-composer/class-kc.php:4423
+#: options/king-composer/class-kc.php:4489
+#: options/king-composer/class-kc.php:4555
+#: options/metaboxes/boxes/artists.php:141
+#: options/metaboxes/boxes/artists.php:372
+#: options/metaboxes/boxes/events.php:89 options/metaboxes/boxes/events.php:513
+#: options/metaboxes/boxes/gallery.php:379
+#: options/metaboxes/boxes/music.php:169 options/metaboxes/boxes/music.php:416
+#: options/metaboxes/boxes/videos.php:361
+msgid "None"
+msgstr ""
+
+#: options/king-composer/class-kc.php:169
+#: options/king-composer/class-kc.php:665
+#: options/king-composer/class-kc.php:1059
+#: options/king-composer/class-kc.php:1715
+#: options/king-composer/class-kc.php:2177
+msgid "Infinite Loading"
+msgstr ""
+
+#: options/king-composer/class-kc.php:171
+#: options/king-composer/class-kc.php:667
+#: options/king-composer/class-kc.php:1061
+#: options/king-composer/class-kc.php:1717
+#: options/king-composer/class-kc.php:2179
+msgid "Select ajax pagination."
+msgstr ""
+
+#: options/king-composer/class-kc.php:179
+#: options/king-composer/class-kc.php:675
+#: options/king-composer/class-kc.php:1069
+#: options/king-composer/class-kc.php:1725
+#: options/king-composer/class-kc.php:2187
+#: options/metaboxes/boxes/artists.php:367
+#: options/metaboxes/boxes/events.php:508
+#: options/metaboxes/boxes/gallery.php:374
+#: options/metaboxes/boxes/music.php:411 options/metaboxes/boxes/videos.php:356
+msgid "Ajax Filter"
+msgstr ""
+
+#: options/king-composer/class-kc.php:185
+#: options/king-composer/class-kc.php:681
+#: options/king-composer/class-kc.php:1075
+#: options/king-composer/class-kc.php:1731
+#: options/king-composer/class-kc.php:2193
+#: options/metaboxes/boxes/artists.php:373
+#: options/metaboxes/boxes/events.php:514
+#: options/metaboxes/boxes/gallery.php:380
+#: options/metaboxes/boxes/music.php:417 options/metaboxes/boxes/videos.php:362
+msgid "On Left"
+msgstr ""
+
+#: options/king-composer/class-kc.php:186
+#: options/king-composer/class-kc.php:682
+#: options/king-composer/class-kc.php:1076
+#: options/king-composer/class-kc.php:1732
+#: options/king-composer/class-kc.php:2194
+#: options/king-composer/class-kc.php:3166
+#: options/king-composer/class-kc.php:3468
+#: options/metaboxes/boxes/artists.php:374
+#: options/metaboxes/boxes/events.php:515
+#: options/metaboxes/boxes/gallery.php:381
+#: options/metaboxes/boxes/music.php:418 options/metaboxes/boxes/videos.php:363
+msgid "Center"
+msgstr ""
+
+#: options/king-composer/class-kc.php:187
+#: options/king-composer/class-kc.php:683
+#: options/king-composer/class-kc.php:1077
+#: options/king-composer/class-kc.php:1733
+#: options/king-composer/class-kc.php:2195
+#: options/metaboxes/boxes/artists.php:375
+#: options/metaboxes/boxes/events.php:516
+#: options/metaboxes/boxes/gallery.php:382
+#: options/metaboxes/boxes/music.php:419 options/metaboxes/boxes/videos.php:364
+msgid "On Right"
+msgstr ""
+
+#: options/king-composer/class-kc.php:188
+#: options/king-composer/class-kc.php:684
+#: options/king-composer/class-kc.php:1078
+#: options/king-composer/class-kc.php:1734
+#: options/king-composer/class-kc.php:2196
+#: options/metaboxes/boxes/artists.php:376
+#: options/metaboxes/boxes/events.php:517
+#: options/metaboxes/boxes/gallery.php:383
+#: options/metaboxes/boxes/music.php:420 options/metaboxes/boxes/videos.php:365
+msgid "Multiple Filters"
+msgstr ""
+
+#: options/king-composer/class-kc.php:190
+#: options/king-composer/class-kc.php:686
+#: options/king-composer/class-kc.php:1080
+#: options/king-composer/class-kc.php:1736
+#: options/king-composer/class-kc.php:2198
+msgid "Display Ajax filter above grid."
+msgstr ""
+
+#: options/king-composer/class-kc.php:198
+#: options/king-composer/class-kc.php:694
+#: options/king-composer/class-kc.php:1088
+#: options/king-composer/class-kc.php:1744
+#: options/king-composer/class-kc.php:2206
+#: options/metaboxes/boxes/artists.php:388
+#: options/metaboxes/boxes/events.php:529
+#: options/metaboxes/boxes/gallery.php:395
+#: options/metaboxes/boxes/music.php:432 options/metaboxes/boxes/videos.php:377
+msgid "Selection Method"
+msgstr ""
+
+#: options/king-composer/class-kc.php:203
+#: options/king-composer/class-kc.php:699
+#: options/king-composer/class-kc.php:1093
+#: options/king-composer/class-kc.php:1749
+#: options/king-composer/class-kc.php:2211
+msgid "Multiple"
+msgstr ""
+
+#: options/king-composer/class-kc.php:204
+#: options/king-composer/class-kc.php:700
+#: options/king-composer/class-kc.php:1094
+#: options/king-composer/class-kc.php:1750
+#: options/king-composer/class-kc.php:2212
+msgid "Single"
+msgstr ""
+
+#: options/king-composer/class-kc.php:206
+#: options/king-composer/class-kc.php:702
+#: options/king-composer/class-kc.php:1096
+#: options/king-composer/class-kc.php:1752
+#: options/king-composer/class-kc.php:2214
+#: options/metaboxes/boxes/artists.php:397
+#: options/metaboxes/boxes/events.php:538
+#: options/metaboxes/boxes/gallery.php:404
+#: options/metaboxes/boxes/music.php:441 options/metaboxes/boxes/videos.php:386
+msgid "Select filter selection method."
+msgstr ""
+
+#: options/king-composer/class-kc.php:214
+#: options/king-composer/class-kc.php:710
+#: options/king-composer/class-kc.php:1104
+#: options/king-composer/class-kc.php:1760
+#: options/king-composer/class-kc.php:2222
+#: options/metaboxes/boxes/artists.php:406
+#: options/metaboxes/boxes/events.php:547
+#: options/metaboxes/boxes/gallery.php:413
+#: options/metaboxes/boxes/music.php:450 options/metaboxes/boxes/videos.php:395
+msgid "Show filters on Start"
+msgstr ""
+
+#: options/king-composer/class-kc.php:219
+#: options/king-composer/class-kc.php:715
+#: options/king-composer/class-kc.php:1109
+#: options/king-composer/class-kc.php:1765
+#: options/king-composer/class-kc.php:2227
+#: options/metaboxes/boxes/media-manager-panels.php:28
+#: options/metaboxes/boxes/media-manager-panels.php:83
+#: options/metaboxes/boxes/media-manager-panels.php:551
+#: options/metaboxes/boxes/media-manager-panels.php:662
+#: options/metaboxes/boxes/media-manager-panels.php:785
+msgid "Yes"
+msgstr ""
+
+#: options/king-composer/class-kc.php:220
+#: options/king-composer/class-kc.php:716
+#: options/king-composer/class-kc.php:1110
+#: options/king-composer/class-kc.php:1766
+#: options/king-composer/class-kc.php:2228
+#: options/metaboxes/boxes/media-manager-panels.php:27
+#: options/metaboxes/boxes/media-manager-panels.php:82
+#: options/metaboxes/boxes/media-manager-panels.php:550
+#: options/metaboxes/boxes/media-manager-panels.php:661
+#: options/metaboxes/boxes/media-manager-panels.php:784
+msgid "No"
+msgstr ""
+
+#: options/king-composer/class-kc.php:222
+#: options/king-composer/class-kc.php:718
+#: options/king-composer/class-kc.php:1112
+#: options/king-composer/class-kc.php:1768
+#: options/king-composer/class-kc.php:2230
+#: options/metaboxes/boxes/artists.php:415
+#: options/metaboxes/boxes/events.php:556
+#: options/metaboxes/boxes/gallery.php:422
+#: options/metaboxes/boxes/music.php:459 options/metaboxes/boxes/videos.php:404
+msgid ""
+"Show filters when page is loaded. Otherwise the filters are shown after "
+"clicking the \"Filters\" button."
+msgstr ""
+
+#: options/king-composer/class-kc.php:238
+#: options/king-composer/class-kc.php:412
+#: options/king-composer/class-kc.php:581
+#: options/king-composer/class-kc.php:734
+#: options/king-composer/class-kc.php:988
+#: options/king-composer/class-kc.php:1128
+#: options/king-composer/class-kc.php:1326
+#: options/king-composer/class-kc.php:1460
+#: options/king-composer/class-kc.php:1536
+#: options/king-composer/class-kc.php:1629
+#: options/king-composer/class-kc.php:1784
+#: options/king-composer/class-kc.php:1852
+#: options/king-composer/class-kc.php:1996
+#: options/king-composer/class-kc.php:2076
+#: options/king-composer/class-kc.php:2246
+#: options/king-composer/class-kc.php:2386
+#: options/king-composer/class-kc.php:2572
+#: options/king-composer/class-kc.php:2765
+#: options/king-composer/class-kc.php:2960
+#: options/king-composer/class-kc.php:3040
+#: options/king-composer/class-kc.php:3181
+#: options/king-composer/class-kc.php:3336
+#: options/king-composer/class-kc.php:3419
+#: options/king-composer/class-kc.php:3536
+#: options/king-composer/class-kc.php:3624
+#: options/king-composer/class-kc.php:3778
+#: options/king-composer/class-kc.php:3955
+#: options/king-composer/class-kc.php:4243
+#: options/king-composer/class-kc.php:4636
+msgid "Select color scheme."
+msgstr ""
+
+#: options/king-composer/class-kc.php:242
+#: options/king-composer/class-kc.php:416
+#: options/king-composer/class-kc.php:585
+#: options/king-composer/class-kc.php:738
+#: options/king-composer/class-kc.php:814
+#: options/king-composer/class-kc.php:992
+#: options/king-composer/class-kc.php:1132
+#: options/king-composer/class-kc.php:1330
+#: options/king-composer/class-kc.php:1390
+#: options/king-composer/class-kc.php:1464
+#: options/king-composer/class-kc.php:1540
+#: options/king-composer/class-kc.php:1633
+#: options/king-composer/class-kc.php:1788
+#: options/king-composer/class-kc.php:1856
+#: options/king-composer/class-kc.php:1898
+#: options/king-composer/class-kc.php:2000
+#: options/king-composer/class-kc.php:2080
+#: options/king-composer/class-kc.php:2250
+#: options/king-composer/class-kc.php:2390
+#: options/king-composer/class-kc.php:2576
+#: options/king-composer/class-kc.php:2769
+#: options/king-composer/class-kc.php:2964
+#: options/king-composer/class-kc.php:3044
+#: options/king-composer/class-kc.php:3185
+#: options/king-composer/class-kc.php:3340
+#: options/king-composer/class-kc.php:3423
+#: options/king-composer/class-kc.php:3540
+#: options/king-composer/class-kc.php:3628
+#: options/king-composer/class-kc.php:3782
+#: options/king-composer/class-kc.php:3849
+#: options/king-composer/class-kc.php:3897
+#: options/king-composer/class-kc.php:3959
+#: options/king-composer/class-kc.php:4071
+#: options/king-composer/class-kc.php:4247
+#: options/king-composer/class-kc.php:4640
+msgid "Extra Class Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:246
+#: options/king-composer/class-kc.php:420
+#: options/king-composer/class-kc.php:589
+#: options/king-composer/class-kc.php:742
+#: options/king-composer/class-kc.php:818
+#: options/king-composer/class-kc.php:996
+#: options/king-composer/class-kc.php:1136
+#: options/king-composer/class-kc.php:1334
+#: options/king-composer/class-kc.php:1394
+#: options/king-composer/class-kc.php:1468
+#: options/king-composer/class-kc.php:1544
+#: options/king-composer/class-kc.php:1637
+#: options/king-composer/class-kc.php:1792
+#: options/king-composer/class-kc.php:1860
+#: options/king-composer/class-kc.php:2004
+#: options/king-composer/class-kc.php:2084
+#: options/king-composer/class-kc.php:2254
+#: options/king-composer/class-kc.php:2394
+#: options/king-composer/class-kc.php:2580
+#: options/king-composer/class-kc.php:2773
+#: options/king-composer/class-kc.php:2968
+#: options/king-composer/class-kc.php:3048
+#: options/king-composer/class-kc.php:3189
+#: options/king-composer/class-kc.php:3344
+#: options/king-composer/class-kc.php:3427
+#: options/king-composer/class-kc.php:3544
+#: options/king-composer/class-kc.php:3632
+#: options/king-composer/class-kc.php:3786
+#: options/king-composer/class-kc.php:3853
+#: options/king-composer/class-kc.php:3901
+#: options/king-composer/class-kc.php:3963
+#: options/king-composer/class-kc.php:4075
+#: options/king-composer/class-kc.php:4251
+#: options/king-composer/class-kc.php:4644
+msgid ""
+"If you wish to style a particular content element differently, please add a "
+"class name to this field and refer to it in your custom CSS file."
+msgstr ""
+
+#: options/king-composer/class-kc.php:249
+#: options/king-composer/class-kc.php:423
+#: options/king-composer/class-kc.php:592
+#: options/king-composer/class-kc.php:745
+#: options/king-composer/class-kc.php:999
+#: options/king-composer/class-kc.php:1139
+#: options/king-composer/class-kc.php:1795
+#: options/king-composer/class-kc.php:2257
+#: options/king-composer/class-kc.php:2397
+#: options/king-composer/class-kc.php:2583
+#: options/king-composer/class-kc.php:2776
+#: options/king-composer/class-kc.php:2971
+#: options/king-composer/class-kc.php:3051
+msgid "Extra Module Class Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:253
+#: options/king-composer/class-kc.php:427
+#: options/king-composer/class-kc.php:596
+#: options/king-composer/class-kc.php:749
+#: options/king-composer/class-kc.php:1003
+#: options/king-composer/class-kc.php:1143
+#: options/king-composer/class-kc.php:1799
+#: options/king-composer/class-kc.php:2261
+#: options/king-composer/class-kc.php:2401
+#: options/king-composer/class-kc.php:2587
+#: options/king-composer/class-kc.php:2780
+#: options/king-composer/class-kc.php:2975
+#: options/king-composer/class-kc.php:3055
+msgid ""
+"If you wish to style loop module differently, please add a class name to "
+"this field and refer to it in your custom CSS file. Tip: no-cut-corners - "
+"disbale cut corners in module."
+msgstr ""
+
+#: options/king-composer/class-kc.php:259
+#: options/king-composer/class-kc.php:755
+#: options/king-composer/class-kc.php:823
+#: options/king-composer/class-kc.php:1149
+#: options/king-composer/class-kc.php:1399
+#: options/king-composer/class-kc.php:1473
+#: options/king-composer/class-kc.php:1549
+#: options/king-composer/class-kc.php:1805
+#: options/king-composer/class-kc.php:1865
+#: options/king-composer/class-kc.php:1907
+#: options/king-composer/class-kc.php:2009
+#: options/king-composer/class-kc.php:2089
+#: options/king-composer/class-kc.php:2267
+#: options/king-composer/class-kc.php:2407
+#: options/king-composer/class-kc.php:3194
+#: options/king-composer/class-kc.php:3549
+#: options/king-composer/class-kc.php:3791
+#: options/king-composer/class-kc.php:3858
+#: options/king-composer/class-kc.php:3916
+msgid "Box CSS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:272
+#: options/king-composer/class-kc.php:768
+#: options/king-composer/class-kc.php:836
+#: options/king-composer/class-kc.php:1162
+#: options/king-composer/class-kc.php:1412
+#: options/king-composer/class-kc.php:1486
+#: options/king-composer/class-kc.php:1564
+#: options/king-composer/class-kc.php:1659
+#: options/king-composer/class-kc.php:1818
+#: options/king-composer/class-kc.php:1881
+#: options/king-composer/class-kc.php:1926
+#: options/king-composer/class-kc.php:2033
+#: options/king-composer/class-kc.php:2102
+#: options/king-composer/class-kc.php:2280
+#: options/king-composer/class-kc.php:2420
+#: options/king-composer/class-kc.php:3218
+#: options/king-composer/class-kc.php:3562
+#: options/king-composer/class-kc.php:3803
+#: options/king-composer/class-kc.php:3870
+msgid "Box wrapper CSS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:283
+msgid "Artists Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:290
+#: options/king-composer/class-kc.php:446
+msgid "Video Module"
+msgstr ""
+
+#: options/king-composer/class-kc.php:295
+#: options/king-composer/class-kc.php:451
+#: options/king-composer/class-kc.php:859
+#: options/king-composer/class-kc.php:2443
+#: options/king-composer/class-kc.php:2611
+#: options/king-composer/class-kc.php:2804
+msgid "Module 1"
+msgstr ""
+
+#: options/king-composer/class-kc.php:297
+#: options/king-composer/class-kc.php:453
+#: options/king-composer/class-kc.php:861
+#: options/king-composer/class-kc.php:2445
+#: options/king-composer/class-kc.php:2614
+#: options/king-composer/class-kc.php:2809
+msgid "Select post module."
+msgstr ""
+
+#: options/king-composer/class-kc.php:301
+#: options/king-composer/class-kc.php:470
+#: options/king-composer/class-kc.php:877
+#: options/king-composer/class-kc.php:1215
+#: options/king-composer/class-kc.php:2461
+#: options/king-composer/class-kc.php:2654
+#: options/king-composer/class-kc.php:2849
+msgid "Items per slide"
+msgstr ""
+
+#: options/king-composer/class-kc.php:311
+#: options/king-composer/class-kc.php:480
+#: options/king-composer/class-kc.php:887
+#: options/king-composer/class-kc.php:1225
+#: options/king-composer/class-kc.php:2471
+#: options/king-composer/class-kc.php:2664
+#: options/king-composer/class-kc.php:2859
+msgid "The number of items displayed per slide (not apply for auto-height)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:315
+#: options/king-composer/class-kc.php:484
+#: options/king-composer/class-kc.php:891
+#: options/king-composer/class-kc.php:1229
+#: options/king-composer/class-kc.php:2475
+#: options/king-composer/class-kc.php:2668
+#: options/king-composer/class-kc.php:2863
+msgid "Items On Tablet?"
+msgstr ""
+
+#: options/king-composer/class-kc.php:325
+#: options/king-composer/class-kc.php:494
+#: options/king-composer/class-kc.php:901
+#: options/king-composer/class-kc.php:1239
+#: options/king-composer/class-kc.php:2485
+#: options/king-composer/class-kc.php:2678
+#: options/king-composer/class-kc.php:2873
+msgid "Display number of items per each slide (Tablet Screen)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:329
+#: options/king-composer/class-kc.php:498
+#: options/king-composer/class-kc.php:905
+#: options/king-composer/class-kc.php:1243
+#: options/king-composer/class-kc.php:2489
+#: options/king-composer/class-kc.php:2682
+#: options/king-composer/class-kc.php:2877
+msgid "Items On Smartphone?"
+msgstr ""
+
+#: options/king-composer/class-kc.php:339
+#: options/king-composer/class-kc.php:508
+#: options/king-composer/class-kc.php:915
+#: options/king-composer/class-kc.php:1253
+#: options/king-composer/class-kc.php:2499
+#: options/king-composer/class-kc.php:2692
+#: options/king-composer/class-kc.php:2887
+msgid "Display number of items per each slide (Mobile Screen)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:343
+#: options/king-composer/class-kc.php:512
+#: options/king-composer/class-kc.php:919
+#: options/king-composer/class-kc.php:1257
+#: options/king-composer/class-kc.php:2503
+#: options/king-composer/class-kc.php:2696
+#: options/king-composer/class-kc.php:2891
+#: options/king-composer/class-kc.php:3002
+msgid "Speed"
+msgstr ""
+
+#: options/king-composer/class-kc.php:353
+#: options/king-composer/class-kc.php:522
+#: options/king-composer/class-kc.php:929
+#: options/king-composer/class-kc.php:1267
+#: options/king-composer/class-kc.php:2513
+#: options/king-composer/class-kc.php:2706
+#: options/king-composer/class-kc.php:2901
+#: options/king-composer/class-kc.php:3012
+msgid "Set the speed at which autoplaying sliders will transition in second"
+msgstr ""
+
+#: options/king-composer/class-kc.php:357
+#: options/king-composer/class-kc.php:526
+#: options/king-composer/class-kc.php:933
+#: options/king-composer/class-kc.php:1271
+#: options/king-composer/class-kc.php:2517
+#: options/king-composer/class-kc.php:2710
+#: options/king-composer/class-kc.php:2905
+msgid "Navigation"
+msgstr ""
+
+#: options/king-composer/class-kc.php:361
+#: options/king-composer/class-kc.php:530
+#: options/king-composer/class-kc.php:937
+#: options/king-composer/class-kc.php:1275
+#: options/king-composer/class-kc.php:2521
+#: options/king-composer/class-kc.php:2714
+#: options/king-composer/class-kc.php:2909
+msgid "Display the \"Next\" and \"Prev\" buttons."
+msgstr ""
+
+#: options/king-composer/class-kc.php:365
+#: options/king-composer/class-kc.php:534
+#: options/king-composer/class-kc.php:941
+#: options/king-composer/class-kc.php:1279
+#: options/king-composer/class-kc.php:2525
+#: options/king-composer/class-kc.php:2718
+#: options/king-composer/class-kc.php:2913
+msgid "Navigation Style"
+msgstr ""
+
+#: options/king-composer/class-kc.php:370
+#: options/king-composer/class-kc.php:539
+#: options/king-composer/class-kc.php:946
+#: options/king-composer/class-kc.php:1284
+#: options/king-composer/class-kc.php:2530
+#: options/king-composer/class-kc.php:2723
+#: options/king-composer/class-kc.php:2918
+msgid "Arrows"
+msgstr ""
+
+#: options/king-composer/class-kc.php:372
+#: options/king-composer/class-kc.php:541
+#: options/king-composer/class-kc.php:948
+#: options/king-composer/class-kc.php:1286
+#: options/king-composer/class-kc.php:2532
+#: options/king-composer/class-kc.php:2725
+#: options/king-composer/class-kc.php:2920
+msgid "Select how navigation buttons display on slide."
+msgstr ""
+
+#: options/king-composer/class-kc.php:380
+#: options/king-composer/class-kc.php:549
+#: options/king-composer/class-kc.php:956
+#: options/king-composer/class-kc.php:1294
+#: options/king-composer/class-kc.php:2540
+#: options/king-composer/class-kc.php:2733
+#: options/king-composer/class-kc.php:2928
+#: options/king-composer/class-kc.php:3016
+msgid "Pagination"
+msgstr ""
+
+#: options/king-composer/class-kc.php:384
+#: options/king-composer/class-kc.php:553
+#: options/king-composer/class-kc.php:960
+#: options/king-composer/class-kc.php:1298
+#: options/king-composer/class-kc.php:2544
+#: options/king-composer/class-kc.php:2737
+#: options/king-composer/class-kc.php:2932
+#: options/king-composer/class-kc.php:3020
+msgid "Show the pagination."
+msgstr ""
+
+#: options/king-composer/class-kc.php:388
+#: options/king-composer/class-kc.php:557
+#: options/king-composer/class-kc.php:964
+#: options/king-composer/class-kc.php:1302
+#: options/king-composer/class-kc.php:2548
+#: options/king-composer/class-kc.php:2741
+#: options/king-composer/class-kc.php:2936
+msgid "Auto height"
+msgstr ""
+
+#: options/king-composer/class-kc.php:392
+#: options/king-composer/class-kc.php:561
+#: options/king-composer/class-kc.php:968
+#: options/king-composer/class-kc.php:1306
+#: options/king-composer/class-kc.php:2552
+#: options/king-composer/class-kc.php:2745
+#: options/king-composer/class-kc.php:2940
+msgid ""
+"Add height to owl-wrapper-outer so you can use diffrent heights on slides. "
+"Use it only for one item per page setting."
+msgstr ""
+
+#: options/king-composer/class-kc.php:396
+#: options/king-composer/class-kc.php:565
+#: options/king-composer/class-kc.php:972
+#: options/king-composer/class-kc.php:1310
+#: options/king-composer/class-kc.php:2556
+#: options/king-composer/class-kc.php:2749
+#: options/king-composer/class-kc.php:2944
+#: options/king-composer/class-kc.php:3024
+msgid "Auto Play"
+msgstr ""
+
+#: options/king-composer/class-kc.php:400
+#: options/king-composer/class-kc.php:569
+#: options/king-composer/class-kc.php:976
+#: options/king-composer/class-kc.php:1314
+#: options/king-composer/class-kc.php:2560
+#: options/king-composer/class-kc.php:2753
+#: options/king-composer/class-kc.php:2948
+msgid "The carousel automatically plays when site loaded"
+msgstr ""
+
+#: options/king-composer/class-kc.php:439
+msgid "Videos Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:457
+#: options/king-composer/class-kc.php:626
+#: options/king-composer/class-kc.php:3487
+#: options/king-composer/class-kc.php:4286
+#: options/king-composer/class-kc.php:4353
+#: options/king-composer/class-kc.php:4419
+#: options/king-composer/class-kc.php:4485
+#: options/king-composer/class-kc.php:4551
+#: options/metaboxes/boxes/videos.php:413
+msgid "Click Action"
+msgstr ""
+
+#: options/king-composer/class-kc.php:462
+#: options/king-composer/class-kc.php:631
+#: options/metaboxes/boxes/videos.php:418
+msgid "Open video in player"
+msgstr ""
+
+#: options/king-composer/class-kc.php:463
+#: options/king-composer/class-kc.php:632
+#: options/metaboxes/boxes/videos.php:419
+msgid "Open video in popup window"
+msgstr ""
+
+#: options/king-composer/class-kc.php:464
+#: options/king-composer/class-kc.php:633
+#: options/metaboxes/boxes/videos.php:420
+msgid "Open video on the new page"
+msgstr ""
+
+#: options/king-composer/class-kc.php:466
+#: options/king-composer/class-kc.php:635
+#: options/metaboxes/boxes/videos.php:422
+msgid "Open video in popup window or on the page."
+msgstr ""
+
+#: options/king-composer/class-kc.php:608
+msgid "Videos Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:609
+msgid "Display an extremely impressive videos with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:639
+msgid "Videos on Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:644
+msgid "1 Video"
+msgstr ""
+
+#: options/king-composer/class-kc.php:645
+msgid "2 Videos"
+msgstr ""
+
+#: options/king-composer/class-kc.php:646
+msgid "3 Videos"
+msgstr ""
+
+#: options/king-composer/class-kc.php:647
+msgid "4 Videos"
+msgstr ""
+
+#: options/king-composer/class-kc.php:648
+msgid "5 Videos"
+msgstr ""
+
+#: options/king-composer/class-kc.php:779
+msgid "Video Cover"
+msgstr ""
+
+#: options/king-composer/class-kc.php:780
+msgid "Display video with image cover."
+msgstr ""
+
+#: options/king-composer/class-kc.php:786
+msgid "Video Source"
+msgstr ""
+
+#: options/king-composer/class-kc.php:791
+msgid "YouTube"
+msgstr ""
+
+#: options/king-composer/class-kc.php:792
+msgid "Vimeo"
+msgstr ""
+
+#: options/king-composer/class-kc.php:794
+msgid "Choose source of video."
+msgstr ""
+
+#: options/king-composer/class-kc.php:798
+msgid "Video link"
+msgstr ""
+
+#: options/king-composer/class-kc.php:803
+msgid "Enter the Youtube or Vimeo URL."
+msgstr ""
+
+#: options/king-composer/class-kc.php:806
+#: options/king-composer/class-kc.php:1520
+#: options/king-composer/class-kc.php:1613
+#: options/king-composer/class-kc.php:1972
+#: options/king-composer/class-kc.php:2060
+#: options/king-composer/class-kc.php:3118
+#: options/king-composer/class-kc.php:3520
+#: options/king-composer/class-kc.php:3889
+msgid "Parallax Y"
+msgstr ""
+
+#: options/king-composer/class-kc.php:811
+#: options/king-composer/class-kc.php:1525
+#: options/king-composer/class-kc.php:1618
+#: options/king-composer/class-kc.php:1977
+#: options/king-composer/class-kc.php:2065
+msgid "Enter parallax value e.g: 40 or -40. Note: (\"0\" disable effect)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:847
+msgid "Gallery Albums Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:848
+msgid "Display gallery albums in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:854
+#: options/king-composer/class-kc.php:2438
+#: options/king-composer/class-kc.php:2606
+#: options/king-composer/class-kc.php:2799
+msgid "Post Module"
+msgstr ""
+
+#: options/king-composer/class-kc.php:865
+#: options/king-composer/class-kc.php:1203
+#: options/king-composer/class-kc.php:2346
+#: options/king-composer/class-kc.php:2449
+#: options/king-composer/class-kc.php:2630
+#: options/king-composer/class-kc.php:2825
+#: options/king-composer/class-kc.php:3446
+#: options/king-composer/class-kc.php:3453
+msgid "Image size"
+msgstr ""
+
+#: options/king-composer/class-kc.php:870
+#: options/king-composer/class-kc.php:1208
+#: options/king-composer/class-kc.php:1964
+#: options/king-composer/class-kc.php:2454
+#: options/king-composer/class-kc.php:2635
+#: options/king-composer/class-kc.php:2647
+#: options/king-composer/class-kc.php:2830
+#: options/king-composer/class-kc.php:2842
+#: options/super-menu/super-menu-walker.php:135
+msgid "Default"
+msgstr ""
+
+#: options/king-composer/class-kc.php:873
+#: options/king-composer/class-kc.php:1211
+#: options/king-composer/class-kc.php:2457
+#: options/king-composer/class-kc.php:2638
+#: options/king-composer/class-kc.php:2833
+msgid ""
+"Select image size. By default, the image size is set for the selected "
+"module. Note: In some modules it is not possible to change image size "
+"because it is set permanently."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1015
+msgid "Gallery Albums"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1016
+msgid "Display an extremely impressive gallery with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1033
+#: options/king-composer/class-kc.php:1689
+#: options/king-composer/class-kc.php:2135
+msgid "Items on Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1038
+#: options/king-composer/class-kc.php:1694
+#: options/king-composer/class-kc.php:2140
+msgid "1 Item"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1039
+#: options/king-composer/class-kc.php:1695
+#: options/king-composer/class-kc.php:2141
+msgid "2 Items"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1040
+#: options/king-composer/class-kc.php:1696
+#: options/king-composer/class-kc.php:2142
+msgid "3 Items"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1041
+#: options/king-composer/class-kc.php:1697
+#: options/king-composer/class-kc.php:2143
+msgid "4 Items"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1042
+#: options/king-composer/class-kc.php:1698
+#: options/king-composer/class-kc.php:2144
+msgid "5 Items"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1173
+msgid "Gallery Images Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1174
+msgid "Display album images in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1180
+#: options/king-composer/class-kc.php:1352
+#: options/king-composer/class-kc.php:1429
+msgid "Select Images Album"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1185
+#: options/king-composer/class-kc.php:1357
+#: options/king-composer/class-kc.php:1434
+msgid ""
+"Select album. If there are no albums available, then you can add a album "
+"using Gallery menu on the left."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1189
+#: options/king-composer/class-kc.php:1376
+#: options/king-composer/class-kc.php:1438
+#: options/king-composer/class-kc.php:4787
+#: options/king-composer/class-kc.php:4879
+#: options/king-composer/class-kc.php:5051
+#: options/king-composer/class-kc.php:5223
+#: options/king-composer/class-kc.php:5384
+#: options/king-composer/class-kc.php:5555
+#: options/metaboxes/boxes/artists.php:437 options/metaboxes/boxes/blog.php:265
+#: options/metaboxes/boxes/events.php:578
+#: options/metaboxes/boxes/gallery.php:444
+#: options/metaboxes/boxes/music.php:481 options/metaboxes/boxes/videos.php:440
+msgid "Limit post number"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1200
+#: options/king-composer/class-kc.php:1387
+#: options/king-composer/class-kc.php:1449
+#: options/king-composer/class-kc.php:4798
+#: options/king-composer/class-kc.php:4890
+#: options/king-composer/class-kc.php:5062
+#: options/king-composer/class-kc.php:5234
+#: options/king-composer/class-kc.php:5395
+#: options/king-composer/class-kc.php:5566
+msgid ""
+"If the field is set at \"0\" the limit post number will be the default "
+"number."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1345
+msgid "Gallery Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1346
+#: options/king-composer/class-kc.php:1423
+msgid "Display images from gallery album."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1361
+msgid "Images on Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1366
+msgid "1 Image"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1367
+msgid "2 Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1368
+msgid "3 Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1369
+msgid "4 Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1370
+msgid "5 Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1422
+msgid "Gallery Mosaic Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1497
+msgid "Stats List"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1498
+msgid "Display stats list"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1504
+msgid "Stats"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1509
+msgid ""
+"Add stats e.g.: coffees per year=1076 (Note: divide stats with linebreaks "
+"(Enter)). Minimum 6 stats."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1512
+msgid "Timer (s)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1517
+msgid "Timer in secounds."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1575
+msgid "Event Countdown"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1576
+msgid "Display current event countdown."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1582
+#: options/king-composer/class-kc.php:3144
+#: options/king-composer/class-kc.php:3294
+#: options/king-composer/class-kc.php:3729 options/metaboxes/boxes/post.php:336
+msgid "Size"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1587
+msgid "Big"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1588
+#: options/king-composer/class-kc.php:2160
+#: options/king-composer/class-kc.php:2368
+#: options/king-composer/class-kc.php:2648
+#: options/king-composer/class-kc.php:2843
+msgid "Small"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1594
+msgid "Select Custom Event?"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1601
+msgid "Select Event"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1642
+msgid "CSS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1670
+msgid "Events Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1671
+msgid ""
+"Display an extremely impressive events blocks with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1682
+#: options/metaboxes/boxes/events.php:468
+msgid "Block 1 - List"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1683
+msgid "Block 2 - Grid"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1829
+msgid "Event Details"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1830
+msgid "Display event details e.g.: Date, Time..."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1836
+#: options/king-composer/class-kc.php:2052
+msgid "Date Format"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1841
+#: options/king-composer/class-kc.php:2057
+msgid "Enter Date format."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1892
+msgid "Display share buttons."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1902
+msgid "Custom class for wrapper of the shortcode widget."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1937
+msgid "Fancy Button"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1938
+msgid ""
+"Display an extremely impressive button with many beautiful styles to attract "
+"your viewers at first click."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1945
+#: options/king-composer/class-kc.php:3092
+#: options/metaboxes/boxes/common.php:178
+#: options/metaboxes/boxes/media-manager-panels.php:598
+#: options/metaboxes/boxes/media-manager-panels.php:710
+#: options/metaboxes/boxes/media-manager-panels.php:841
+#: options/metaboxes/boxes/media-manager-panels.php:1137
+#: options/metaboxes/boxes/music.php:761 options/metaboxes/boxes/music.php:763
+#: options/metaboxes/boxes/tracks-libary.php:78
+#: options/metaboxes/boxes/tracks-libary.php:80
+#: options/post-types/class-artists.php:156
+#: options/post-types/class-events-manager.php:203
+#: options/post-types/class-gallery.php:172
+#: options/post-types/class-music.php:156
+#: options/post-types/class-tracks-libary.php:97
+#: options/post-types/class-videos.php:156
+msgid "Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1949
+msgid "Add the text that appears on the button."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1956
+msgid ""
+"Add your relative URL. Each URL contains link, anchor text and target "
+"attributes."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1959
+#: options/king-composer/class-kc.php:3130
+msgid "Style"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1965
+msgid "Frame Button"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1966
+msgid "Line Link"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1968
+msgid "Select button style."
+msgstr ""
+
+#: options/king-composer/class-kc.php:1980
+msgid "Button extra class"
+msgstr ""
+
+#: options/king-composer/class-kc.php:1984
+msgid "Add class name for a tag."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2044
+msgid "Events Date"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2045
+msgid "Display big event date."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2113
+msgid "Music Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2114
+msgid ""
+"Display an extremely impressive music blocks with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2125
+#: options/king-composer/class-kc.php:2303
+msgid "Block 1 (3 posts)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2126
+#: options/king-composer/class-kc.php:2304
+msgid "Block 2 (3 posts)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2127
+#: options/king-composer/class-kc.php:2305
+msgid "Block 3 (5 posts)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2154
+#: options/king-composer/class-kc.php:2362
+#: options/king-composer/class-kc.php:2642
+#: options/king-composer/class-kc.php:2837
+msgid "Module Size"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2159
+#: options/king-composer/class-kc.php:2351
+#: options/king-composer/class-kc.php:2367
+msgid "From Block Settings"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2162
+#: options/king-composer/class-kc.php:2370
+msgid ""
+"Select module size. Note: In some blocks it is not possible to change the "
+"size because it is set permanently."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2291
+msgid "Posts Block"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2292
+msgid ""
+"Display an extremely impressive recent posts with many beautiful styles."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2315
+msgid "Articles on Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2320
+msgid "1 Article"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2321
+msgid "2 Articles"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2322
+msgid "3 Articles"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2323
+msgid "4 Articles"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2324
+msgid "5 Articles"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2326
+msgid "Select number of articles per row."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2334
+#: options/king-composer/class-kc.php:2618
+#: options/king-composer/class-kc.php:2813
+#: options/king-composer/class-kc.php:2994
+msgid "Show Excerpt"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2338
+#: options/king-composer/class-kc.php:2622
+#: options/king-composer/class-kc.php:2817
+#: options/king-composer/class-kc.php:2998
+msgid "Show or hide short post description under title."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2354
+msgid ""
+"Select image size. By default, the image size is set for the selected "
+"module. Note: In some blocks it is not possible to change image size because "
+"it is set permanently."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2431
+msgid "Events Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2432
+msgid "Display events in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2599
+msgid "Music Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2600
+msgid "Display music in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2612
+#: options/king-composer/class-kc.php:2805
+msgid "Module 2"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2650
+#: options/king-composer/class-kc.php:2845
+msgid ""
+"Select module size. Note: In some module it is not possible to change the "
+"size because it is set permanently."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2792
+msgid "Posts Carousel"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2793
+#: options/king-composer/class-kc.php:2988
+msgid "Display posts in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:2806
+msgid "Module 3"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2807
+msgid "Module 4"
+msgstr ""
+
+#: options/king-composer/class-kc.php:2987
+#: options/super-menu/super-menu-walker.php:137
+msgid "Posts Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3028
+msgid "The slider automatically plays when site loaded"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3073
+#: options/king-composer/class-kc.php:4760
+msgid "Slide CSS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3084
+msgid "Fancy Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3085
+msgid ""
+"Display an extremely impressive title with many beautiful styles to attract "
+"your viewers at first click."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3097
+msgid "Enter title here."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3100
+msgid "Use Post Title?"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3103
+msgid ""
+"Use the title of current post/page as content element instead of text input "
+"value."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3106
+msgid "Back Layer Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3111
+msgid "Enter back layer title here"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3123
+msgid "Enter back layer parallax Y value."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3135
+msgid "Bottom Line"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3136
+msgid "Center Line"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3137
+msgid "Page Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3138
+msgid "Page Title (Parallax)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3141
+msgid "Select heading style."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3149
+msgid "H1"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3150
+msgid "H2"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3151
+msgid "H3"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3152
+msgid "H4"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3153
+msgid "H5"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3154
+msgid "H6"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3157
+msgid "Select heading size."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3160
+#: options/king-composer/class-kc.php:3462
+#: options/king-composer/class-kc.php:4615
+msgid "Align"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3165
+#: options/king-composer/class-kc.php:3467
+#: options/king-composer/class-kc.php:4620
+msgid "Left"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3167
+#: options/king-composer/class-kc.php:3469
+msgid "Right"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3170
+msgid "Select heading align."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3228
+#: options/metaboxes/boxes/tracks-libary.php:60
+msgid "Tracklist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3229
+msgid "Display tracklist."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3235
+#: options/king-composer/class-kc.php:3369
+#: options/king-composer/class-kc.php:3499
+msgid "Select Tracklist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3240
+#: options/king-composer/class-kc.php:3374
+#: options/king-composer/class-kc.php:3504
+#: options/king-composer/class-kc.php:4312
+#: options/king-composer/class-kc.php:4379
+#: options/king-composer/class-kc.php:4445
+#: options/king-composer/class-kc.php:4511
+#: options/king-composer/class-kc.php:4577
+msgid ""
+"Select tracklist post. If there are no tracks available, then you can add a "
+"audio tracks using Tacks Manager menu on the left."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3244
+#: options/king-composer/class-kc.php:3361
+msgid "Unique ID"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3248
+#: options/king-composer/class-kc.php:3365
+msgid ""
+"Type unique ID. This will be used to run the tracklist via another element "
+"trigger eg a button or a cover player."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3252
+#: options/king-composer/class-kc.php:3382
+#: options/king-composer/class-kc.php:3512
+msgid "Tracks IDS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3256
+#: options/king-composer/class-kc.php:3386
+#: options/king-composer/class-kc.php:3516
+msgid ""
+"Filter multiple tracks by ID. Enter the track IDs separated by | (ex: 333|18|"
+"643)."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3260 options/metaboxes/boxes/post.php:286
+msgid "Fixed Height"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3269 options/metaboxes/boxes/post.php:293
+msgid ""
+"Set fixed height (px) of tracklist. If the value is set at \"0\" then the "
+"height of the list is set to automatic and the scroll on right is invisible."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3273 options/metaboxes/boxes/post.php:302
+msgid "Show Cover Images"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3277
+msgid "Show or hide tracks cover images in tracklist."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3281
+#: options/king-composer/class-kc.php:3390 options/metaboxes/boxes/post.php:320
+msgid "Display Limit"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3290
+#: options/king-composer/class-kc.php:3399 options/metaboxes/boxes/post.php:327
+msgid ""
+"How many tracks will be visibile. If the value is set at \"0\" then all "
+"tracks will be shown."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3299 options/metaboxes/boxes/post.php:341
+msgid "Medium"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3300 options/metaboxes/boxes/post.php:342
+msgid "Large"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3301 options/metaboxes/boxes/post.php:343
+msgid "Extra Large"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3303 options/metaboxes/boxes/post.php:346
+msgid "Select tracklist size."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3307
+msgid "Audio Visualisation"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3313
+msgid "Lines"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3314
+msgid "Bars"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3316
+msgid "Select audio visualisation."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3320 options/metaboxes/boxes/post.php:355
+msgid "Show Advertisement"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3324 options/metaboxes/boxes/post.php:364
+msgid ""
+"Show or hide advertisement tracklist. AD can be set in Theme Panel > ADS > "
+"Tracklist Inline."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3354
+msgid "Waveform Tracklist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3355
+msgid "Display tracks with big waveform."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3403
+msgid "Waveform Colors"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3407
+msgid ""
+"Enter the waveform colors separated by \",\" (1 waveform start gradient, 2 "
+"waveform end gradient, 3 shadow waveform start gradient, 4 shadow waveform "
+"end gradient)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3439
+msgid "Cover Player"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3440
+msgid "Display album image with play button."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3449
+msgid "Select image from media library."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3458
+msgid "Select image size."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3472
+msgid "Image align."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3475
+msgid "Tracklist Unique ID"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3479
+msgid ""
+"Type tracklist unique ID. This tracklist will be controlled by this cover "
+"player."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3492
+msgid "Play Inlcuded Tracklist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3493
+msgid "Play External Tracklist"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3496
+msgid ""
+"Click action type, play included tracklist or external. External tracklist "
+"is selected by: Unique ID."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3525
+msgid "Enter parallax Y value for smooth motion."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3572
+#: options/widgets/class-widget-recent-posts.php:115
+msgid "Recent Posts"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3573
+msgid "Display recent posts"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3579
+msgid "Number Posts to Show"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3588
+msgid "Number posts to show."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3592
+msgid "Ratings"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3596
+msgid "Show posts ratings."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3600
+msgid "Show Description"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3604
+msgid "Show post description (excerpt)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3608
+msgid "Show Thumbnails"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3612
+msgid "Show post thumbnails"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3643
+#: options/widgets/class-widget-instafeed.php:138
+msgid "Instagram Feed"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3644
+#: options/widgets/class-widget-instafeed.php:25
+msgid "Display recent images from Instagram account."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3652
+#: options/widgets/class-widget-instafeed.php:178
+msgid "Username"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3656
+#: options/widgets/class-widget-instafeed.php:182
+msgid ""
+"Enter the ID as it appears after the instagram url (ex. http://www.instagram."
+"com/ID)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3660
+#: options/widgets/class-widget-instafeed.php:196
+msgid "Display Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3664
+#: options/widgets/class-widget-instafeed.php:200
+msgid "Enter custom profile name instead of ID name."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3668
+msgid "Access token"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3672
+#: options/widgets/class-widget-instafeed.php:191
+msgid ""
+"You can get the Access token at https://archetypethemes.co/pages/instagram-"
+"token-generator"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3675
+msgid "Display Header"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3679
+msgid "Display or hide the Instagram header section."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3683
+#: options/widgets/class-widget-instafeed.php:214
+msgid "Display Follow Overlay"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3687
+#: options/widgets/class-widget-instafeed.php:218
+msgid "Display or hide the black overlay with profile link."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3691
+msgid "Images Per Row"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3700
+#: options/king-composer/class-kc.php:3713
+msgid "Set the number of images displayed on each row (default is 3)."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3704
+msgid "Number of Rows"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3717
+msgid "Image Gap"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3722
+msgid "No Gap"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3723
+msgid "2px"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3725
+#: options/widgets/class-widget-instafeed.php:255
+msgid "Set a gap between images (default: No gap)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3734
+msgid "Small Widget"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3735
+msgid "Fullwidth"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3737
+msgid "Set module size."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3744
+msgid "Request Timeout"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3753
+msgid "Timeout in minutes for the instagram API request."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3757
+msgid "Cache Time"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3766
+msgid ""
+"Time in minutes that data is stored in the database before re-downloading."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3813
+msgid "Advertisement"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3814
+msgid "Display advertisement."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3821
+#: options/widgets/class-widget-ad.php:141
+msgid "Display AD Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3825
+#: options/widgets/class-widget-ad.php:145
+msgid ""
+"Display small title by default is: - Advertisement -. Note: Text can be "
+"replaced by Translate plugin like Loco Translate."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3829
+#: options/widgets/class-widget-ad.php:150
+msgid "Use adspot from:"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3838
+msgid "Article Top"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3839
+msgid "Article Bottom"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3840
+msgid "Tracklit Inline"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3841
+msgid "Custom 1"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3842
+msgid "Custom 2"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3843
+msgid "Custom 3"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3845
+msgid "Choose the adspot from list."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3880
+msgid "Parallax Container"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3881
+msgid "Display parallax container with smooth animation."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3894
+msgid "Enter parallax value e.g: 40 or -40."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3926
+msgid "Details List"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3927
+msgid "Display details list."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3935
+msgid "Style:"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3940
+msgid "Horizontal"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3941
+msgid "Vertical"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3943
+msgid "Choose the list style."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3973
+msgid "Detail"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3974
+msgid "Display details."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3981
+msgid "Detail Label"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3985
+msgid "Enter name of your detail."
+msgstr ""
+
+#: options/king-composer/class-kc.php:3988
+msgid "Detail Type"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3993
+msgid "Text"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3994
+#: options/king-composer/class-kc.php:4013
+msgid "Links"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3995
+#: options/king-composer/class-kc.php:4024
+msgid "Buttons"
+msgstr ""
+
+#: options/king-composer/class-kc.php:3998
+msgid "Choose the detail type."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4002
+msgid "Detail Text"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4006
+msgid "Enter detail text."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4017
+msgid ""
+"Add custom buttons divided with linebreaks (Enter) e.g.: Google|http://"
+"google.com|_blank Note: Target parameter can be used: \"_self\" (open link "
+"in same window) or \"_blank\" (open link in new tab)."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4028
+msgid ""
+"Add custom buttons divided with linebreaks (Enter) e.g.: Google|http://"
+"google.com|_blank|icon_name Note: Target parameter can be used: \"_self"
+"\" (open link in same window) or \"_blank\" (open link in new tab)."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4042
+msgid "Testimonial Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4043
+#: options/king-composer/class-kc.php:4207
+msgid "Display layers in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4050
+#: options/king-composer/class-kc.php:4214
+#: options/king-composer/class-kc.php:4601
+msgid "Pause Time (s)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4060
+#: options/king-composer/class-kc.php:4224
+msgid "Set the pause time for the slides (\"0\" disable timer)."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4064
+#: options/king-composer/class-kc.php:4228
+msgid "Use Parallax Effect?"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4068
+#: options/king-composer/class-kc.php:4232
+msgid "Use parallax effect."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4082
+#: options/king-composer/class-kc.php:4106
+#: options/king-composer/class-kc.php:4130
+#: options/king-composer/class-kc.php:4154
+#: options/king-composer/class-kc.php:4178
+#: options/metaboxes/boxes/common.php:37 options/metaboxes/boxes/common.php:165
+#: options/metaboxes/boxes/post.php:187
+msgid "Image"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4085
+#: options/king-composer/class-kc.php:4109
+#: options/king-composer/class-kc.php:4133
+#: options/king-composer/class-kc.php:4157
+#: options/king-composer/class-kc.php:4181
+#: options/king-composer/class-kc.php:4261
+#: options/king-composer/class-kc.php:4328
+#: options/king-composer/class-kc.php:4394
+#: options/king-composer/class-kc.php:4460
+#: options/king-composer/class-kc.php:4526
+msgid "Select image square image."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4089
+#: options/king-composer/class-kc.php:4113
+#: options/king-composer/class-kc.php:4137
+#: options/king-composer/class-kc.php:4161
+#: options/king-composer/class-kc.php:4185
+#: options/metaboxes/boxes/artists.php:513
+#: options/metaboxes/boxes/artists.php:546
+#: options/metaboxes/boxes/artists.php:579
+#: options/metaboxes/boxes/artists.php:613
+#: options/metaboxes/boxes/events.php:642
+#: options/metaboxes/boxes/events.php:669
+#: options/metaboxes/boxes/events.php:702
+#: options/metaboxes/boxes/events.php:735
+#: options/metaboxes/boxes/gallery.php:516
+#: options/metaboxes/boxes/gallery.php:549
+#: options/metaboxes/boxes/gallery.php:582
+#: options/metaboxes/boxes/gallery.php:616
+#: options/metaboxes/boxes/music.php:557 options/metaboxes/boxes/music.php:590
+#: options/metaboxes/boxes/music.php:623 options/metaboxes/boxes/music.php:657
+#: options/metaboxes/boxes/videos.php:511
+#: options/metaboxes/boxes/videos.php:544
+#: options/metaboxes/boxes/videos.php:577
+#: options/metaboxes/boxes/videos.php:611
+msgid "Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4095
+#: options/king-composer/class-kc.php:4119
+#: options/king-composer/class-kc.php:4143
+#: options/king-composer/class-kc.php:4167
+#: options/king-composer/class-kc.php:4191
+msgid "Testimonial"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4099
+#: options/king-composer/class-kc.php:4123
+#: options/king-composer/class-kc.php:4147
+#: options/king-composer/class-kc.php:4171
+#: options/king-composer/class-kc.php:4195
+msgid "Short testimonial text."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4206
+msgid "Layers Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4258
+#: options/king-composer/class-kc.php:4325
+#: options/king-composer/class-kc.php:4391
+#: options/king-composer/class-kc.php:4457
+#: options/king-composer/class-kc.php:4523
+msgid "Square Image"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4268
+#: options/king-composer/class-kc.php:4335
+#: options/king-composer/class-kc.php:4401
+#: options/king-composer/class-kc.php:4467
+#: options/king-composer/class-kc.php:4533
+msgid "Select background image image."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4272
+#: options/king-composer/class-kc.php:4339
+#: options/king-composer/class-kc.php:4405
+#: options/king-composer/class-kc.php:4471
+#: options/king-composer/class-kc.php:4537
+#: options/king-composer/class-kc.php:4651
+#: options/king-composer/class-kc.php:4668
+#: options/king-composer/class-kc.php:4685
+#: options/king-composer/class-kc.php:4702
+#: options/king-composer/class-kc.php:4719
+msgid "Slide Title"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4276
+#: options/king-composer/class-kc.php:4343
+#: options/king-composer/class-kc.php:4409
+#: options/king-composer/class-kc.php:4475
+#: options/king-composer/class-kc.php:4541
+#: options/king-composer/class-kc.php:4655
+#: options/king-composer/class-kc.php:4672
+#: options/king-composer/class-kc.php:4689
+#: options/king-composer/class-kc.php:4706
+#: options/king-composer/class-kc.php:4723
+msgid "Slide title."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4279
+#: options/king-composer/class-kc.php:4346
+#: options/king-composer/class-kc.php:4412
+#: options/king-composer/class-kc.php:4478
+#: options/king-composer/class-kc.php:4544
+#: options/king-composer/class-kc.php:4658
+#: options/king-composer/class-kc.php:4675
+#: options/king-composer/class-kc.php:4692
+#: options/king-composer/class-kc.php:4709
+#: options/king-composer/class-kc.php:4726
+msgid "Slide Text"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4283
+#: options/king-composer/class-kc.php:4350
+#: options/king-composer/class-kc.php:4416
+#: options/king-composer/class-kc.php:4482
+#: options/king-composer/class-kc.php:4548
+msgid "Slide subtitle."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4291
+#: options/king-composer/class-kc.php:4358
+#: options/king-composer/class-kc.php:4424
+#: options/king-composer/class-kc.php:4490
+#: options/king-composer/class-kc.php:4556
+#: options/metaboxes/boxes/media-manager-panels.php:614
+msgid "Custom Link"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4292
+#: options/king-composer/class-kc.php:4359
+#: options/king-composer/class-kc.php:4425
+#: options/king-composer/class-kc.php:4491
+#: options/king-composer/class-kc.php:4557
+msgid "Play Link"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4297
+#: options/king-composer/class-kc.php:4307
+#: options/king-composer/class-kc.php:4364
+#: options/king-composer/class-kc.php:4374
+#: options/king-composer/class-kc.php:4430
+#: options/king-composer/class-kc.php:4440
+#: options/king-composer/class-kc.php:4496
+#: options/king-composer/class-kc.php:4506
+#: options/king-composer/class-kc.php:4562
+#: options/king-composer/class-kc.php:4572
+msgid "Link URL"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4593
+msgid "Text Slider"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4594
+msgid "Display text in a nice sliding manner."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4611
+#: options/king-composer/class-kc.php:4624
+msgid "Set the pause time for the slides."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4621
+msgid "Horizontal Center"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4622
+msgid "Horizontal and Vertical Center"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4662
+#: options/king-composer/class-kc.php:4679
+#: options/king-composer/class-kc.php:4696
+#: options/king-composer/class-kc.php:4713
+#: options/king-composer/class-kc.php:4730
+msgid "Slide text."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4801
+#: options/king-composer/class-kc.php:4893
+#: options/king-composer/class-kc.php:5065
+#: options/king-composer/class-kc.php:5398
+#: options/king-composer/class-kc.php:5569
+#: options/metaboxes/boxes/artists.php:452 options/metaboxes/boxes/blog.php:279
+#: options/metaboxes/boxes/gallery.php:458
+#: options/metaboxes/boxes/music.php:496 options/metaboxes/boxes/videos.php:454
+msgid "Sort Order"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4806
+#: options/king-composer/class-kc.php:4899
+#: options/king-composer/class-kc.php:5071
+#: options/king-composer/class-kc.php:5403
+#: options/king-composer/class-kc.php:5575
+#: options/metaboxes/boxes/artists.php:459 options/metaboxes/boxes/blog.php:285
+#: options/metaboxes/boxes/gallery.php:465
+#: options/metaboxes/boxes/music.php:503 options/metaboxes/boxes/videos.php:461
+msgid "Latest (By date)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4807
+#: options/king-composer/class-kc.php:4900
+#: options/king-composer/class-kc.php:5072
+#: options/king-composer/class-kc.php:5404
+#: options/king-composer/class-kc.php:5576
+msgid "Alphabetical A - Z"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4808
+#: options/king-composer/class-kc.php:4901
+#: options/king-composer/class-kc.php:5073
+#: options/king-composer/class-kc.php:5405
+#: options/king-composer/class-kc.php:5577
+#: options/metaboxes/boxes/artists.php:461 options/metaboxes/boxes/blog.php:287
+#: options/metaboxes/boxes/gallery.php:467
+#: options/metaboxes/boxes/music.php:505 options/metaboxes/boxes/videos.php:463
+msgid "Random Posts"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4809
+#: options/king-composer/class-kc.php:4902
+#: options/king-composer/class-kc.php:5074
+#: options/king-composer/class-kc.php:5406
+#: options/king-composer/class-kc.php:5578
+#: options/metaboxes/boxes/artists.php:462 options/metaboxes/boxes/blog.php:288
+#: options/metaboxes/boxes/gallery.php:468
+#: options/metaboxes/boxes/music.php:506 options/metaboxes/boxes/videos.php:464
+msgid "Random Posts Today"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4810
+#: options/king-composer/class-kc.php:4903
+#: options/king-composer/class-kc.php:5075
+#: options/king-composer/class-kc.php:5407
+#: options/king-composer/class-kc.php:5579
+#: options/metaboxes/boxes/artists.php:463 options/metaboxes/boxes/blog.php:289
+#: options/metaboxes/boxes/gallery.php:469
+#: options/metaboxes/boxes/music.php:507 options/metaboxes/boxes/videos.php:465
+msgid "Random Posts From Last 7 Days"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4811
+#: options/king-composer/class-kc.php:4904
+#: options/king-composer/class-kc.php:5076
+#: options/king-composer/class-kc.php:5408
+#: options/king-composer/class-kc.php:5580
+#: options/metaboxes/boxes/artists.php:464 options/metaboxes/boxes/blog.php:290
+#: options/metaboxes/boxes/gallery.php:470
+#: options/metaboxes/boxes/music.php:508 options/metaboxes/boxes/videos.php:466
+msgid "Most Commented"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4812 options/metaboxes/boxes/blog.php:291
+msgid "Highest rated (reviews)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4815
+#: options/king-composer/class-kc.php:4907
+#: options/king-composer/class-kc.php:5079
+#: options/king-composer/class-kc.php:5411
+#: options/king-composer/class-kc.php:5583
+#: options/metaboxes/boxes/artists.php:467 options/metaboxes/boxes/blog.php:294
+#: options/metaboxes/boxes/gallery.php:473
+#: options/metaboxes/boxes/music.php:511 options/metaboxes/boxes/videos.php:469
+msgid "How to sort the posts."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4818
+msgid "Category"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4823
+#: options/king-composer/class-kc.php:4956
+#: options/king-composer/class-kc.php:4981
+#: options/king-composer/class-kc.php:5006
+#: options/king-composer/class-kc.php:5031
+#: options/king-composer/class-kc.php:5128
+#: options/king-composer/class-kc.php:5153
+#: options/king-composer/class-kc.php:5178
+#: options/king-composer/class-kc.php:5203
+#: options/king-composer/class-kc.php:5314
+#: options/king-composer/class-kc.php:5339
+#: options/king-composer/class-kc.php:5364
+#: options/king-composer/class-kc.php:5460
+#: options/king-composer/class-kc.php:5485
+#: options/king-composer/class-kc.php:5510
+#: options/king-composer/class-kc.php:5535
+#: options/king-composer/class-kc.php:5632
+#: options/king-composer/class-kc.php:5657
+#: options/king-composer/class-kc.php:5682
+#: options/king-composer/class-kc.php:5707
+msgid "Filter multiple categories."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4826 options/metaboxes/boxes/blog.php:318
+msgid "Category Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4830
+#: options/king-composer/class-kc.php:4963
+#: options/king-composer/class-kc.php:4988
+#: options/king-composer/class-kc.php:5013
+#: options/king-composer/class-kc.php:5038
+#: options/king-composer/class-kc.php:5135
+#: options/king-composer/class-kc.php:5160
+#: options/king-composer/class-kc.php:5185
+#: options/king-composer/class-kc.php:5210
+#: options/king-composer/class-kc.php:5321
+#: options/king-composer/class-kc.php:5346
+#: options/king-composer/class-kc.php:5371
+#: options/king-composer/class-kc.php:5467
+#: options/king-composer/class-kc.php:5492
+#: options/king-composer/class-kc.php:5517
+#: options/king-composer/class-kc.php:5542
+#: options/king-composer/class-kc.php:5639
+#: options/king-composer/class-kc.php:5664
+#: options/king-composer/class-kc.php:5689
+#: options/king-composer/class-kc.php:5714 options/metaboxes/boxes/blog.php:324
+msgid ""
+"Filter multiple categories by category slug name separated by commas (ex: "
+"news,interviews,reviews). To exclude posts add them with \"-\" (ex: -news,-"
+"interviews,-reviews)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4833
+#: options/king-composer/class-kc.php:4910
+#: options/king-composer/class-kc.php:5082
+#: options/king-composer/class-kc.php:5237
+#: options/king-composer/class-kc.php:5414
+#: options/king-composer/class-kc.php:5586
+#: options/metaboxes/boxes/artists.php:472 options/metaboxes/boxes/blog.php:297
+#: options/metaboxes/boxes/events.php:592
+#: options/metaboxes/boxes/gallery.php:476
+#: options/metaboxes/boxes/music.php:516 options/metaboxes/boxes/videos.php:472
+msgid "Post ID"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4837
+#: options/king-composer/class-kc.php:4914
+#: options/king-composer/class-kc.php:5086
+#: options/king-composer/class-kc.php:5241
+#: options/king-composer/class-kc.php:5418
+#: options/king-composer/class-kc.php:5590
+#: options/metaboxes/boxes/artists.php:478 options/metaboxes/boxes/blog.php:303
+#: options/metaboxes/boxes/events.php:598
+#: options/metaboxes/boxes/gallery.php:482
+#: options/metaboxes/boxes/music.php:522 options/metaboxes/boxes/videos.php:478
+msgid ""
+"Filter multiple posts by ID. Enter the post IDs separated by commas (ex: "
+"333,18,643). To exclude posts add them with \"-\" (ex: -30,-486,-12)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4840 options/metaboxes/boxes/blog.php:327
+msgid "Tag Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4844 options/metaboxes/boxes/blog.php:333
+msgid ""
+"Filter tags by slugs. Enter the tag slugs separated by commas (ex: tag1,tag2,"
+"tag3)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4847 options/metaboxes/boxes/blog.php:336
+msgid "Author ID"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4851 options/metaboxes/boxes/blog.php:342
+msgid ""
+"Filter multiple authors by ID. Enter the author IDs separated by commas (ex: "
+"32,11,899)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4854
+#: options/king-composer/class-kc.php:4917
+#: options/king-composer/class-kc.php:5089
+#: options/king-composer/class-kc.php:5248
+#: options/king-composer/class-kc.php:5421
+#: options/king-composer/class-kc.php:5593
+#: options/metaboxes/boxes/artists.php:483 options/metaboxes/boxes/blog.php:345
+#: options/metaboxes/boxes/events.php:607
+#: options/metaboxes/boxes/gallery.php:485
+#: options/metaboxes/boxes/music.php:527 options/metaboxes/boxes/videos.php:481
+msgid "Offset Posts"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4865
+#: options/king-composer/class-kc.php:4928
+#: options/king-composer/class-kc.php:5100
+#: options/king-composer/class-kc.php:5259
+#: options/king-composer/class-kc.php:5432
+#: options/king-composer/class-kc.php:5604
+#: options/metaboxes/boxes/artists.php:493 options/metaboxes/boxes/blog.php:355
+#: options/metaboxes/boxes/events.php:617
+#: options/metaboxes/boxes/gallery.php:495
+#: options/metaboxes/boxes/music.php:537 options/metaboxes/boxes/videos.php:491
+msgid ""
+"Start the count with an offset. If you have a block that shows 10 posts "
+"before this one, you can make this one start from the 11'th post (by using "
+"offset 10)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4898
+#: options/king-composer/class-kc.php:5070
+#: options/king-composer/class-kc.php:5574
+#: options/metaboxes/boxes/artists.php:458
+#: options/metaboxes/boxes/gallery.php:464
+#: options/metaboxes/boxes/music.php:502 options/metaboxes/boxes/videos.php:460
+msgid "Drag and Drop"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4933
+#: options/king-composer/class-kc.php:5105
+#: options/king-composer/class-kc.php:5268
+#: options/king-composer/class-kc.php:5437
+#: options/king-composer/class-kc.php:5609
+#: options/metaboxes/boxes/artists.php:501
+#: options/metaboxes/boxes/events.php:630
+#: options/metaboxes/boxes/gallery.php:504
+#: options/metaboxes/boxes/music.php:545 options/metaboxes/boxes/videos.php:499
+msgid "Filters Order"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4938
+#: options/king-composer/class-kc.php:5110
+#: options/king-composer/class-kc.php:5273
+#: options/king-composer/class-kc.php:5442
+#: options/king-composer/class-kc.php:5614
+#: options/metaboxes/boxes/artists.php:507
+#: options/metaboxes/boxes/gallery.php:510
+#: options/metaboxes/boxes/music.php:551 options/metaboxes/boxes/videos.php:505
+msgid ""
+"Enter the filters order number separated by commas e.g.: 2,1 (Display only "
+"two filters, the second will be displayed first)"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4943
+#: options/king-composer/class-kc.php:5115
+#: options/king-composer/class-kc.php:5278
+#: options/king-composer/class-kc.php:5447
+#: options/king-composer/class-kc.php:5619
+msgid "Filter 1 - Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4946
+#: options/king-composer/class-kc.php:4971
+#: options/king-composer/class-kc.php:4996
+#: options/king-composer/class-kc.php:5021
+#: options/king-composer/class-kc.php:5118
+#: options/king-composer/class-kc.php:5143
+#: options/king-composer/class-kc.php:5168
+#: options/king-composer/class-kc.php:5193
+#: options/king-composer/class-kc.php:5281
+#: options/king-composer/class-kc.php:5304
+#: options/king-composer/class-kc.php:5329
+#: options/king-composer/class-kc.php:5354
+#: options/king-composer/class-kc.php:5450
+#: options/king-composer/class-kc.php:5475
+#: options/king-composer/class-kc.php:5500
+#: options/king-composer/class-kc.php:5525
+#: options/king-composer/class-kc.php:5622
+#: options/king-composer/class-kc.php:5647
+#: options/king-composer/class-kc.php:5672
+#: options/king-composer/class-kc.php:5697
+#: options/metaboxes/boxes/artists.php:517
+#: options/metaboxes/boxes/events.php:673
+#: options/metaboxes/boxes/gallery.php:520
+#: options/metaboxes/boxes/music.php:561 options/metaboxes/boxes/videos.php:515
+msgid "All"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4948
+#: options/king-composer/class-kc.php:4973
+#: options/king-composer/class-kc.php:4998
+#: options/king-composer/class-kc.php:5023
+#: options/king-composer/class-kc.php:5120
+#: options/king-composer/class-kc.php:5145
+#: options/king-composer/class-kc.php:5170
+#: options/king-composer/class-kc.php:5195
+#: options/king-composer/class-kc.php:5283
+#: options/king-composer/class-kc.php:5306
+#: options/king-composer/class-kc.php:5331
+#: options/king-composer/class-kc.php:5356
+#: options/king-composer/class-kc.php:5452
+#: options/king-composer/class-kc.php:5477
+#: options/king-composer/class-kc.php:5502
+#: options/king-composer/class-kc.php:5527
+#: options/king-composer/class-kc.php:5624
+#: options/king-composer/class-kc.php:5649
+#: options/king-composer/class-kc.php:5674
+#: options/king-composer/class-kc.php:5699
+#: options/metaboxes/boxes/artists.php:519
+#: options/metaboxes/boxes/artists.php:552
+#: options/metaboxes/boxes/artists.php:585
+#: options/metaboxes/boxes/artists.php:619
+#: options/metaboxes/boxes/events.php:675
+#: options/metaboxes/boxes/events.php:708
+#: options/metaboxes/boxes/events.php:741
+#: options/metaboxes/boxes/gallery.php:522
+#: options/metaboxes/boxes/gallery.php:555
+#: options/metaboxes/boxes/gallery.php:588
+#: options/metaboxes/boxes/gallery.php:622
+#: options/metaboxes/boxes/music.php:563 options/metaboxes/boxes/music.php:596
+#: options/metaboxes/boxes/music.php:629 options/metaboxes/boxes/music.php:663
+#: options/metaboxes/boxes/videos.php:517
+#: options/metaboxes/boxes/videos.php:550
+#: options/metaboxes/boxes/videos.php:583
+#: options/metaboxes/boxes/videos.php:617
+msgid "Filter name."
+msgstr ""
+
+#: options/king-composer/class-kc.php:4951
+#: options/king-composer/class-kc.php:5123
+#: options/king-composer/class-kc.php:5455
+#: options/king-composer/class-kc.php:5627
+msgid "Filter 1 - IDS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4959
+#: options/king-composer/class-kc.php:5131
+#: options/king-composer/class-kc.php:5463
+#: options/king-composer/class-kc.php:5635
+msgid "Filter 1 - Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4968
+#: options/king-composer/class-kc.php:5140
+#: options/king-composer/class-kc.php:5301
+#: options/king-composer/class-kc.php:5472
+#: options/king-composer/class-kc.php:5644
+msgid "Filter 2 - Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4976
+#: options/king-composer/class-kc.php:5148
+#: options/king-composer/class-kc.php:5309
+#: options/king-composer/class-kc.php:5480
+#: options/king-composer/class-kc.php:5652
+msgid "Filter 2 - IDS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4984
+#: options/king-composer/class-kc.php:5156
+#: options/king-composer/class-kc.php:5317
+#: options/king-composer/class-kc.php:5488
+#: options/king-composer/class-kc.php:5660
+msgid "Filter 2 - Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:4993
+#: options/king-composer/class-kc.php:5165
+#: options/king-composer/class-kc.php:5326
+#: options/king-composer/class-kc.php:5497
+#: options/king-composer/class-kc.php:5669
+msgid "Filter 3 - Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5001
+#: options/king-composer/class-kc.php:5173
+#: options/king-composer/class-kc.php:5334
+#: options/king-composer/class-kc.php:5505
+#: options/king-composer/class-kc.php:5677
+msgid "Filter 3 - IDS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5009
+#: options/king-composer/class-kc.php:5181
+#: options/king-composer/class-kc.php:5342
+#: options/king-composer/class-kc.php:5513
+#: options/king-composer/class-kc.php:5685
+msgid "Filter 3 - Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5018
+#: options/king-composer/class-kc.php:5190
+#: options/king-composer/class-kc.php:5351
+#: options/king-composer/class-kc.php:5522
+#: options/king-composer/class-kc.php:5694
+msgid "Filter 4 - Name"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5026
+#: options/king-composer/class-kc.php:5198
+#: options/king-composer/class-kc.php:5359
+#: options/king-composer/class-kc.php:5530
+#: options/king-composer/class-kc.php:5702
+msgid "Filter 4 - IDS"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5034
+#: options/king-composer/class-kc.php:5206
+#: options/king-composer/class-kc.php:5367
+#: options/king-composer/class-kc.php:5538
+#: options/king-composer/class-kc.php:5710
+msgid "Filter 4 - Slug"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5286
+msgid "Filter 1 - Type"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5291
+#: options/metaboxes/boxes/events.php:657
+#: options/post-types/class-events-manager.php:321
+msgid "Future"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5292
+#: options/metaboxes/boxes/events.php:658
+#: options/post-types/class-events-manager.php:323
+msgid "Past"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5293
+#: options/metaboxes/boxes/events.php:659
+msgid "Future + Past"
+msgstr ""
+
+#: options/king-composer/class-kc.php:5296
+#: options/metaboxes/boxes/events.php:662
+msgid "Select event type."
+msgstr ""
+
+#: options/king-composer/class-kc.php:5899 options/metaboxes/metaboxes.php:98
+#: options/metaboxes/metaboxes.php:127 options/post-types/class-posts.php:84
+#: options/post-types/class-posts.php:113
+msgid "Select slider..."
+msgstr ""
+
+#: options/king-composer/class-kc.php:5952
+msgid "Select..."
+msgstr ""
+
+#: options/king-composer/class-kc.php:6061
+#: options/metaboxes/boxes/media-manager-panels.php:1006
+#: options/metaboxes/metaboxes.php:169 options/post-types/class-posts.php:155
+msgid "Select tracks..."
+msgstr ""
+
+#: options/king-composer/templates/kc_artists_block.php:160
+#: options/king-composer/templates/kc_events_block.php:159
+#: options/king-composer/templates/kc_gallery_block.php:161
+#: options/king-composer/templates/kc_music_block.php:163
+#: options/king-composer/templates/kc_videos_block.php:159
+msgid "Load More"
+msgstr ""
+
+#: options/king-composer/templates/kc_artists_block.php:169
+#: options/king-composer/templates/kc_gallery_block.php:170
+#: options/king-composer/templates/kc_gallery_images_mosaic.php:222
+#: options/king-composer/templates/kc_gallery_images_mosaic.php:230
+#: options/king-composer/templates/kc_music_block.php:172
+#: options/king-composer/templates/kc_videos_block.php:168
+msgid "Warning: There are no items to display this module."
+msgstr ""
+
+#: options/king-composer/templates/kc_artists_carousel.php:142
+#: options/king-composer/templates/kc_events_carousel.php:141
+#: options/king-composer/templates/kc_gallery_carousel.php:143
+#: options/king-composer/templates/kc_gallery_images_carousel.php:144
+#: options/king-composer/templates/kc_music_carousel.php:146
+#: options/king-composer/templates/kc_posts_carousel.php:158
+#: options/king-composer/templates/kc_posts_slider.php:145
+#: options/king-composer/templates/kc_videos_carousel.php:143
+msgid "Carousel Post: No posts found"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_countdown.php:79
+msgid "Days"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_countdown.php:80
+msgid "Hours"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_countdown.php:81
+msgid "Minutes"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_countdown.php:82
+msgid "Seconds"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_countdown.php:89
+#: options/king-composer/templates/kc_events_block.php:168
+msgid "Currently, we have no future events."
+msgstr ""
+
+#: options/king-composer/templates/kc_event_details.php:47
+msgid "City name"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_details.php:48
+msgid "Place"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_details.php:56
+msgid "in"
+msgstr ""
+
+#: options/king-composer/templates/kc_event_details.php:57
+msgid "Start"
+msgstr ""
+
+#: options/king-composer/templates/kc_gallery_images.php:138
+#: options/king-composer/templates/kc_gallery_images.php:144
+#: options/king-composer/templates/kc_gallery_images_carousel.php:158
+msgid ""
+"Warning: There are no items to display this module. Please select gallery "
+"album."
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:41
+msgid "Render failed - no data is received, please check the ID"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:63
+msgid "Something went wrong with Instagram server"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:85
+#: options/king-composer/templates/kc_instafeed.php:100
+msgid "Error decoding the instagram json"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:129
+msgid "Instagram profile image"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:142
+msgid "Followers"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:144
+msgid "Follow"
+msgstr ""
+
+#: options/king-composer/templates/kc_instafeed.php:157
+msgid "Instagram image"
+msgstr ""
+
+#: options/king-composer/templates/kc_posts_block.php:113
+msgid "Warning: There are no posts to display this module."
+msgstr ""
+
+#: options/king-composer/templates/music-block/block1.php:28
+#: options/king-composer/templates/music-block/block2.php:28
+#: options/king-composer/templates/music-block/block3.php:28
+#: options/king-composer/templates/posts-block/block1.php:29
+#: options/king-composer/templates/posts-block/block2.php:29
+#: options/king-composer/templates/posts-block/block3.php:29
+msgid ""
+"Warning: The number of posts is too small to display this module. The "
+"minimum number is: "
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:32
+msgid "Artist Options"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:57
+#: options/metaboxes/boxes/events.php:214
+#: options/metaboxes/boxes/gallery.php:88 options/metaboxes/boxes/music.php:85
+#: options/metaboxes/boxes/page.php:56 options/metaboxes/boxes/videos.php:82
+msgid "Content"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:67
+#: options/metaboxes/boxes/events.php:243
+#: options/metaboxes/boxes/gallery.php:119 options/metaboxes/boxes/music.php:95
+#: options/metaboxes/boxes/page.php:66 options/metaboxes/boxes/videos.php:114
+msgid "Header Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:74
+#: options/metaboxes/boxes/events.php:250
+#: options/metaboxes/boxes/gallery.php:126
+#: options/metaboxes/boxes/music.php:102 options/metaboxes/boxes/page.php:73
+#: options/metaboxes/boxes/videos.php:121
+msgid "Transparnet header with default image background"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:79
+#: options/metaboxes/boxes/events.php:255
+#: options/metaboxes/boxes/gallery.php:131
+#: options/metaboxes/boxes/music.php:107 options/metaboxes/boxes/page.php:78
+#: options/metaboxes/boxes/videos.php:126
+msgid "Simple header with solid background color and page title"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:84
+#: options/metaboxes/boxes/events.php:260
+#: options/metaboxes/boxes/gallery.php:136
+#: options/metaboxes/boxes/music.php:112 options/metaboxes/boxes/page.php:83
+#: options/metaboxes/boxes/videos.php:131
+msgid "Transparnet header with custom background created via page builder"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:89
+#: options/metaboxes/boxes/events.php:265
+#: options/metaboxes/boxes/gallery.php:141
+#: options/metaboxes/boxes/music.php:117 options/metaboxes/boxes/page.php:88
+#: options/metaboxes/boxes/videos.php:136
+msgid "Simple header with solid background color"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:94
+#: options/metaboxes/boxes/common.php:116
+#: options/metaboxes/boxes/events.php:270
+#: options/metaboxes/boxes/gallery.php:146
+#: options/metaboxes/boxes/music.php:122 options/metaboxes/boxes/page.php:93
+#: options/metaboxes/boxes/videos.php:141
+msgid ""
+"Choose the page layout. When is selected \"Page Builder\", it will switch to "
+"a full width layout (with no sidebar and title). If you want to use a "
+"sidebar with the page builder please use the Widget Sidebar block"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:99
+#: options/metaboxes/boxes/events.php:275
+#: options/metaboxes/boxes/gallery.php:178
+#: options/metaboxes/boxes/music.php:127 options/metaboxes/boxes/page.php:98
+#: options/metaboxes/boxes/videos.php:146
+msgid "Background"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:104
+#: options/metaboxes/boxes/events.php:280
+#: options/metaboxes/boxes/gallery.php:183
+#: options/metaboxes/boxes/music.php:132 options/metaboxes/boxes/page.php:103
+#: options/metaboxes/boxes/videos.php:151
+msgid "Add background image."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:115
+#: options/metaboxes/boxes/music.php:143
+msgid "Loop Options"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:122
+#: options/metaboxes/boxes/music.php:149
+msgid "Thumbnail Tracks"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:131
+#: options/metaboxes/boxes/music.php:158
+msgid ""
+"Select tracklist post and drag and drop tracks to set the order. Tracks will "
+"be added to release thumbnail. If there are no tracks available, then you "
+"can add a audio tracks using Tacks Manager menu on the left. Tip: Modifying "
+"this list does not affect on the original tracklist in Tracks Manager"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:136
+#: options/metaboxes/boxes/music.php:164
+msgid "Thumbnail Badge"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:142
+#: options/metaboxes/boxes/music.php:170
+msgid "New"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:143
+#: options/metaboxes/boxes/music.php:171
+msgid "Free"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:145
+#: options/metaboxes/boxes/music.php:173
+msgid "Select badge."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:173
+msgid "Artists Options"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:199 options/metaboxes/boxes/blog.php:57
+#: options/metaboxes/boxes/events.php:335
+#: options/metaboxes/boxes/gallery.php:237 options/metaboxes/boxes/music.php:61
+#: options/metaboxes/boxes/music.php:229 options/metaboxes/boxes/post.php:57
+#: options/metaboxes/boxes/videos.php:59 options/metaboxes/boxes/videos.php:206
+#: options/widgets/class-widget-ad.php:122
+#: options/widgets/class-widget-instafeed.php:159
+#: options/widgets/class-widget-recent-posts.php:130
+msgid "General"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:206 options/metaboxes/boxes/blog.php:64
+#: options/metaboxes/boxes/events.php:342
+#: options/metaboxes/boxes/gallery.php:95
+#: options/metaboxes/boxes/gallery.php:244
+#: options/metaboxes/boxes/music.php:236 options/metaboxes/boxes/videos.php:89
+#: options/metaboxes/boxes/videos.php:213
+msgid "Page Builder"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:213 options/metaboxes/boxes/blog.php:71
+#: options/metaboxes/boxes/common.php:44 options/metaboxes/boxes/events.php:349
+#: options/metaboxes/boxes/gallery.php:102
+#: options/metaboxes/boxes/gallery.php:251
+#: options/metaboxes/boxes/music.php:243 options/metaboxes/boxes/post.php:182
+#: options/metaboxes/boxes/videos.php:96 options/metaboxes/boxes/videos.php:220
+msgid "Disabled"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:218 options/metaboxes/boxes/blog.php:76
+#: options/metaboxes/boxes/common.php:111
+#: options/metaboxes/boxes/events.php:354
+#: options/metaboxes/boxes/gallery.php:107
+#: options/metaboxes/boxes/gallery.php:256
+#: options/metaboxes/boxes/music.php:248 options/metaboxes/boxes/videos.php:101
+#: options/metaboxes/boxes/videos.php:225
+msgid "Create page through The Page Builder"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:222 options/metaboxes/boxes/blog.php:80
+#: options/metaboxes/boxes/events.php:358
+#: options/metaboxes/boxes/gallery.php:111
+#: options/metaboxes/boxes/gallery.php:260
+#: options/metaboxes/boxes/music.php:252 options/metaboxes/boxes/videos.php:105
+#: options/metaboxes/boxes/videos.php:229
+msgid ""
+"Enable or disable page builder above main posts loop. When is enabled \"Page "
+"Builder\", it will switch to a full width layout (with no title)."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:227 options/metaboxes/boxes/blog.php:85
+#: options/metaboxes/boxes/events.php:363 options/metaboxes/boxes/music.php:257
+msgid "Header Over Content"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:236 options/metaboxes/boxes/blog.php:94
+#: options/metaboxes/boxes/events.php:372 options/metaboxes/boxes/music.php:266
+msgid "Show header over content."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:245
+#: options/metaboxes/boxes/music.php:275
+msgid "Releases Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:257 options/metaboxes/boxes/blog.php:115
+#: options/metaboxes/boxes/common.php:96 options/metaboxes/boxes/events.php:393
+#: options/metaboxes/boxes/gallery.php:278
+#: options/metaboxes/boxes/music.php:287 options/metaboxes/boxes/videos.php:247
+msgid "Narrow Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:262 options/metaboxes/boxes/blog.php:120
+#: options/metaboxes/boxes/common.php:101
+#: options/metaboxes/boxes/events.php:398
+#: options/metaboxes/boxes/gallery.php:283
+#: options/metaboxes/boxes/music.php:292 options/metaboxes/boxes/videos.php:252
+msgid "Wide Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:272
+msgid ""
+"Choose the recent artists layout. The settings from this panel applies to "
+"the bottom of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:277 options/metaboxes/boxes/blog.php:135
+#: options/metaboxes/boxes/common.php:121
+#: options/metaboxes/boxes/events.php:224
+#: options/metaboxes/boxes/events.php:413
+#: options/metaboxes/boxes/gallery.php:298
+#: options/metaboxes/boxes/music.php:307 options/metaboxes/boxes/post.php:106
+#: options/metaboxes/boxes/videos.php:267
+msgid "Custom Sidebar"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:282 options/metaboxes/boxes/blog.php:140
+#: options/metaboxes/boxes/common.php:126
+#: options/metaboxes/boxes/events.php:229
+#: options/metaboxes/boxes/events.php:418
+#: options/metaboxes/boxes/gallery.php:303
+#: options/metaboxes/boxes/music.php:312 options/metaboxes/boxes/post.php:111
+#: options/metaboxes/boxes/videos.php:272
+msgid "Primary Sidebar"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:287 options/metaboxes/boxes/blog.php:145
+#: options/metaboxes/boxes/common.php:131
+#: options/metaboxes/boxes/events.php:234
+#: options/metaboxes/boxes/events.php:423
+#: options/metaboxes/boxes/gallery.php:308
+#: options/metaboxes/boxes/music.php:317 options/metaboxes/boxes/post.php:116
+#: options/metaboxes/boxes/videos.php:277
+msgid "Select custom or primary sidebar."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:296
+#: options/metaboxes/boxes/events.php:432
+#: options/metaboxes/boxes/gallery.php:151
+#: options/metaboxes/boxes/music.php:326 options/metaboxes/boxes/videos.php:342
+msgid "Full width?"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:305
+#: options/metaboxes/boxes/events.php:441
+#: options/metaboxes/boxes/gallery.php:160
+#: options/metaboxes/boxes/music.php:335 options/metaboxes/boxes/videos.php:351
+msgid "Show full width images grid."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:316 options/metaboxes/boxes/blog.php:161
+#: options/metaboxes/boxes/events.php:453
+#: options/metaboxes/boxes/gallery.php:324
+#: options/metaboxes/boxes/music.php:346 options/metaboxes/boxes/videos.php:293
+msgid "Loop Settings"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:324 options/metaboxes/boxes/blog.php:168
+#: options/metaboxes/boxes/events.php:461
+#: options/metaboxes/boxes/gallery.php:332
+#: options/metaboxes/boxes/music.php:354 options/metaboxes/boxes/videos.php:301
+msgid "Select Block"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:346 options/metaboxes/boxes/blog.php:232
+#: options/metaboxes/boxes/events.php:488
+#: options/metaboxes/boxes/gallery.php:354
+#: options/metaboxes/boxes/music.php:391 options/metaboxes/boxes/videos.php:323
+msgid "Select a block to be used in the loop of this page."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:379
+#: options/metaboxes/boxes/events.php:520
+#: options/metaboxes/boxes/gallery.php:386
+#: options/metaboxes/boxes/music.php:423 options/metaboxes/boxes/videos.php:368
+msgid "Show or hide Ajax filter."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:430 options/metaboxes/boxes/blog.php:258
+#: options/metaboxes/boxes/events.php:571
+#: options/metaboxes/boxes/gallery.php:437
+#: options/metaboxes/boxes/music.php:474 options/metaboxes/boxes/videos.php:433
+#: options/post-types/class-artists.php:147
+#: options/post-types/class-events-manager.php:194
+#: options/post-types/class-gallery.php:163
+#: options/post-types/class-music.php:147
+#: options/post-types/class-tracks-libary.php:93
+#: options/post-types/class-videos.php:147
+msgid "Filter"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:447 options/metaboxes/boxes/blog.php:274
+#: options/metaboxes/boxes/events.php:587
+#: options/metaboxes/boxes/gallery.php:453
+#: options/metaboxes/boxes/music.php:491 options/metaboxes/boxes/videos.php:449
+msgid ""
+"If the field is empty the limit post number will be the number from "
+"Wordpress settings -> Reading"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:460 options/metaboxes/boxes/blog.php:286
+#: options/metaboxes/boxes/gallery.php:466
+#: options/metaboxes/boxes/music.php:504 options/metaboxes/boxes/videos.php:462
+msgid "Alphabetical A -> Z"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:512
+#: options/metaboxes/boxes/events.php:641
+#: options/metaboxes/boxes/gallery.php:515
+#: options/metaboxes/boxes/music.php:556 options/metaboxes/boxes/videos.php:510
+#: options/post-types/class-artists.php:91
+#: options/post-types/class-artists.php:92
+#: options/post-types/class-events-manager.php:144
+#: options/post-types/class-events-manager.php:145
+#: options/post-types/class-gallery.php:107
+#: options/post-types/class-gallery.php:108
+#: options/post-types/class-music.php:91 options/post-types/class-music.php:92
+#: options/post-types/class-videos.php:91
+#: options/post-types/class-videos.php:92
+msgid "Filter 1"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:530
+#: options/metaboxes/boxes/artists.php:563
+#: options/metaboxes/boxes/artists.php:596
+#: options/metaboxes/boxes/artists.php:630
+#: options/metaboxes/boxes/events.php:686
+#: options/metaboxes/boxes/events.php:719
+#: options/metaboxes/boxes/events.php:752
+#: options/metaboxes/boxes/gallery.php:533
+#: options/metaboxes/boxes/gallery.php:566
+#: options/metaboxes/boxes/gallery.php:599
+#: options/metaboxes/boxes/gallery.php:633
+#: options/metaboxes/boxes/music.php:574 options/metaboxes/boxes/music.php:607
+#: options/metaboxes/boxes/music.php:640 options/metaboxes/boxes/music.php:674
+#: options/metaboxes/boxes/videos.php:528
+#: options/metaboxes/boxes/videos.php:561
+#: options/metaboxes/boxes/videos.php:594
+#: options/metaboxes/boxes/videos.php:628
+msgid ""
+"Filter multiple categories. Hold the CTRL key (PC) or COMMAND key (Mac) and "
+"click the items in a list to choose them. Click all the items you want to "
+"select. They don’t have to be next to each other.\n"
+"\t\t\t\tClick any item again to deselect it, e.g. if you have made a "
+"mistake. Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:534
+#: options/metaboxes/boxes/artists.php:567
+#: options/metaboxes/boxes/artists.php:600
+#: options/metaboxes/boxes/artists.php:634
+#: options/metaboxes/boxes/events.php:690
+#: options/metaboxes/boxes/events.php:723
+#: options/metaboxes/boxes/events.php:756
+#: options/metaboxes/boxes/gallery.php:537
+#: options/metaboxes/boxes/gallery.php:570
+#: options/metaboxes/boxes/gallery.php:603
+#: options/metaboxes/boxes/gallery.php:637
+#: options/metaboxes/boxes/music.php:578 options/metaboxes/boxes/music.php:611
+#: options/metaboxes/boxes/music.php:644 options/metaboxes/boxes/music.php:678
+#: options/metaboxes/boxes/videos.php:532
+#: options/metaboxes/boxes/videos.php:565
+#: options/metaboxes/boxes/videos.php:598
+#: options/metaboxes/boxes/videos.php:632
+msgid "Slugs"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:540
+#: options/metaboxes/boxes/artists.php:573
+#: options/metaboxes/boxes/artists.php:606
+#: options/metaboxes/boxes/artists.php:640
+#: options/metaboxes/boxes/events.php:696
+#: options/metaboxes/boxes/events.php:729
+#: options/metaboxes/boxes/events.php:762
+#: options/metaboxes/boxes/gallery.php:543
+#: options/metaboxes/boxes/gallery.php:576
+#: options/metaboxes/boxes/gallery.php:609
+#: options/metaboxes/boxes/gallery.php:643
+#: options/metaboxes/boxes/music.php:584 options/metaboxes/boxes/music.php:617
+#: options/metaboxes/boxes/music.php:650 options/metaboxes/boxes/music.php:684
+#: options/metaboxes/boxes/videos.php:538
+#: options/metaboxes/boxes/videos.php:571
+#: options/metaboxes/boxes/videos.php:604
+#: options/metaboxes/boxes/videos.php:638
+msgid ""
+"Filter multiple categories by category slug name separated by commas (ex: "
+"dubstep,hip-hop,glitch). Please note: Categories above have a higher "
+"priority than slugs names, so if you selected categories names, slugs will "
+"not be processed."
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:545
+#: options/metaboxes/boxes/events.php:668
+#: options/metaboxes/boxes/gallery.php:548
+#: options/metaboxes/boxes/music.php:589 options/metaboxes/boxes/videos.php:543
+#: options/post-types/class-artists.php:104
+#: options/post-types/class-artists.php:105
+#: options/post-types/class-events-manager.php:156
+#: options/post-types/class-events-manager.php:157
+#: options/post-types/class-gallery.php:120
+#: options/post-types/class-gallery.php:121
+#: options/post-types/class-music.php:104
+#: options/post-types/class-music.php:105
+#: options/post-types/class-videos.php:104
+#: options/post-types/class-videos.php:105
+msgid "Filter 2"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:578
+#: options/metaboxes/boxes/events.php:701
+#: options/metaboxes/boxes/gallery.php:581
+#: options/metaboxes/boxes/music.php:622 options/metaboxes/boxes/videos.php:576
+#: options/post-types/class-artists.php:117
+#: options/post-types/class-artists.php:118
+#: options/post-types/class-events-manager.php:168
+#: options/post-types/class-events-manager.php:169
+#: options/post-types/class-gallery.php:133
+#: options/post-types/class-gallery.php:134
+#: options/post-types/class-music.php:117
+#: options/post-types/class-music.php:118
+#: options/post-types/class-videos.php:117
+#: options/post-types/class-videos.php:118
+msgid "Filter 3"
+msgstr ""
+
+#: options/metaboxes/boxes/artists.php:612
+#: options/metaboxes/boxes/events.php:734
+#: options/metaboxes/boxes/gallery.php:615
+#: options/metaboxes/boxes/music.php:656 options/metaboxes/boxes/videos.php:610
+#: options/post-types/class-artists.php:130
+#: options/post-types/class-artists.php:131
+#: options/post-types/class-gallery.php:146
+#: options/post-types/class-gallery.php:147
+#: options/post-types/class-music.php:130
+#: options/post-types/class-music.php:131
+#: options/post-types/class-videos.php:130
+#: options/post-types/class-videos.php:131
+msgid "Filter 4"
+msgstr ""
+
+#: options/metaboxes/boxes/blog.php:32
+msgid "Articles Options"
+msgstr ""
+
+#: options/metaboxes/boxes/blog.php:103
+msgid "Articles Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/blog.php:130
+msgid ""
+"Choose the recent articles layout. the settings from this panel applies to "
+"the bottom of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/metaboxes/boxes/blog.php:306
+msgid "Multiple Category ID"
+msgstr ""
+
+#: options/metaboxes/boxes/blog.php:314
+msgid ""
+"Filter multiple categories. Hold the CTRL key (PC) or COMMAND key (Mac) and "
+"click the items in a list to choose them. Click all the items you want to "
+"select. They don’t have to be next to each other.\n"
+"Click any item again to deselect it, e.g. if you have made a mistake. "
+"Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:38
+msgid "Image With Link"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:39
+msgid "Image With Lightbox"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:40
+msgid "Slider"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:41
+msgid "YouTube Movie"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:42
+msgid "Vimeo Movie"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:43
+msgid "Google Map"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:50
+msgid "Full Screen Image"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:51
+msgid "Full Screen Image with Content"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:52
+msgid "Full Screen Slider"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:53
+msgid "Full Screen YouTube Background"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:59
+msgid "Artist Profile"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:84
+msgid "Page Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:145
+#: options/metaboxes/boxes/common.php:151
+msgid "Facebook Sharing"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:160
+msgid ""
+"Show or hide Facebook share options (head tags). Tip: This option can be set "
+"as the default in Theme Customizer > Single Post"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:169
+msgid ""
+"Use images that are at least 1200 x 630 pixels for the best display on high "
+"resolution devices. At the minimum, you should use images that are 600 x 315 "
+"pixels to display link page posts with larger images. If share data isn't "
+"visible on Facebook, please use this link:"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:182
+msgid "A clear title without branding or mentioning the domain itself."
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:191
+#: options/metaboxes/boxes/media-manager-panels.php:873
+#: options/post-types/class-videos.php:63
+msgid "Video"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:195
+msgid "Video URL."
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:204
+msgid "Short Description"
+msgstr ""
+
+#: options/metaboxes/boxes/common.php:210
+msgid "A clear description, at least two sentences long."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:31
+msgid "Event Options"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:60
+msgid "Date/Time"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:66
+#: options/post-types/class-artists.php:157
+#: options/post-types/class-events-manager.php:204
+#: options/post-types/class-gallery.php:173
+#: options/post-types/class-music.php:157
+#: options/post-types/class-tracks-libary.php:98
+#: options/post-types/class-videos.php:157
+msgid "Date"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:72
+msgid "Enter the event date; eg 2010-09-11"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:75
+msgid "Time"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:81
+msgid "Enter the event time; eg 21:00 or 09:00 pm"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:84
+msgid "Repeat"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:90
+msgid "Weekly"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:92
+msgid "Repeat event."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:95
+msgid "Every"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:100
+msgid "week(s)"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:102
+msgid "Repeat event every week(s)."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:109
+msgid "Day(s)"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:114
+msgid "Monday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:115
+msgid "Tuesday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:116
+msgid "Wednesday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:117
+msgid "Thursday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:118
+msgid "Friday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:119
+msgid "Saturday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:120
+msgid "Sunday"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:122
+msgid ""
+"Please use the CTRL key (PC) or COMMAND key (Mac) to select multiple items."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:137
+#: options/post-types/class-events-manager.php:205
+msgid "Details"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:144
+msgid "City"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:150
+msgid "Event city"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:155
+msgid "Club/Place"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:161
+msgid "Event club place"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:166
+msgid "Address"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:172
+msgid "Event address"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:177
+msgid "Ticket Status"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:187
+msgid "Select ticket status."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:192
+msgid "Ticket link"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:199
+msgid "Add custom ticket link or select from WordPress."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:309
+msgid "Events Options"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:381
+msgid "Events Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:408
+msgid ""
+"Choose the recent events layout. The settings from this panel applies to the "
+"bottom of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:636
+msgid "Enter the filters order number separated by commas (ex: 1,2,3)."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:648
+msgid "Filter name. If this field is empty, the filter will not be shown."
+msgstr ""
+
+#: options/metaboxes/boxes/events.php:651
+#: options/post-types/class-events-manager.php:117
+#: options/post-types/class-events-manager.php:118
+#: options/post-types/class-events-manager.php:382
+msgid "Event Type"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:32 options/metaboxes/boxes/music.php:32
+msgid "Album Options"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:57
+msgid "Images"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:70
+msgid "Add Images"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:71
+msgid "Add images from media libary"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:75
+msgid ""
+"Currently you don't have any images, you can add them by clicking on the "
+"button below."
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:76
+msgid ""
+"Hold the CTRL key (PC) or COMMAND key (Mac) and click the items in a list to "
+"choose them. Click all the items you want to select. They don’t have to be "
+"next to each other.\n"
+"\t\t\t\tClick any item again to deselect it, e.g. if you have made a "
+"mistake. Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:165
+msgid "Images in Row"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:212
+msgid "Gallery Options"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:266
+msgid "Gallery Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/gallery.php:293
+msgid ""
+"Choose the gallery layout. The settings from this panel applies to the "
+"bottom of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:21
+#: options/metaboxes/boxes/media-manager-panels.php:76
+#: options/metaboxes/boxes/media-manager-panels.php:544
+#: options/metaboxes/boxes/media-manager-panels.php:655
+#: options/metaboxes/boxes/media-manager-panels.php:778
+msgid "Same Window/Tab"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:22
+#: options/metaboxes/boxes/media-manager-panels.php:77
+#: options/metaboxes/boxes/media-manager-panels.php:545
+#: options/metaboxes/boxes/media-manager-panels.php:656
+#: options/metaboxes/boxes/media-manager-panels.php:779
+msgid "New Window/Tab"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:98
+#: options/metaboxes/boxes/media-manager-panels.php:118
+msgid "Track Title"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:105
+msgid "Track ID"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:109
+msgid "Track ID can be used to select tracks."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:122
+msgid "Enter track title."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:135
+msgid "Release/Track URL"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:139
+msgid ""
+"Paste here link to the MP3 file or link to Soundcloud track, list, favorite "
+"tracks, or paste direct link of music track from following services like: "
+"hearthis.at and click on appropriate button. Then the fields will be "
+"automatically filled in with the data taken from the selected site."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:140
+msgid "Get track data from following services:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:142
+msgid "hearthis.at"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:142
+msgid "Google Drive"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:146
+msgid "Please enter a valid link, or select another service.."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:147
+msgid "Link is already converted, please enter a new link."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:148
+msgid ""
+"Error! Data could not be retrieved. Please try later, service may now be "
+"disabled."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:149
+msgid "Done! Data has been downloaded successfully."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:162
+msgid "Length (optional)"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:166
+msgid "Track length is displayed in content tracklist."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:177
+#: options/metaboxes/boxes/music.php:768 options/metaboxes/boxes/music.php:770
+msgid "Artist"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:181
+msgid "Enter track artist(s) . "
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:192
+msgid "Artists URL"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:196
+msgid "Paste artist URL."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:208
+msgid "Artists Link Target"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:221
+msgid "Select window option."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:233
+msgid "Track Buttons"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:237
+msgid ""
+"Add player buttons (Note: divide links with linebreaks (Enter)). Button "
+"example:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:249
+msgid "Cover Image"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:295
+msgid "Add image cover."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:306
+msgid "Waveform Image"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:352
+msgid ""
+"Add track waveform, best image is white or black PNG (depends on theme skin) "
+"with transparent background. Waveform can be generated on following site:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:365
+msgid "Release URL"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:369
+msgid "Paste release URL."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:381
+msgid "Release Link Target"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:394
+#: options/metaboxes/boxes/media-manager-panels.php:463
+msgid "Select target link."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:406
+msgid "Free Download?"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:421
+msgid ""
+"If you choose this option, \"Buy\" icon will be replaced on \"Download\"."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:433
+msgid "Cart URL / Download URL"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:437
+msgid "Paste cart URL or download link."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:450
+msgid "Cart Link Target"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:474
+msgid "Track Lyrics (optional)"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:478
+msgid "Track lyrics is displayed in content tracklist/track."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:490
+msgid "Disable track playback?"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:505
+msgid ""
+"If you choose this option, track will not be played, will only be visible in "
+"the content tracklist."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:573
+#: options/metaboxes/boxes/media-manager-panels.php:685
+#: options/metaboxes/boxes/media-manager-panels.php:816
+msgid "File name:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:574
+#: options/metaboxes/boxes/media-manager-panels.php:686
+#: options/metaboxes/boxes/media-manager-panels.php:817
+msgid "File type:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:575
+#: options/metaboxes/boxes/media-manager-panels.php:687
+#: options/metaboxes/boxes/media-manager-panels.php:818
+msgid "Upload date:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:578
+#: options/metaboxes/boxes/media-manager-panels.php:690
+#: options/metaboxes/boxes/media-manager-panels.php:821
+msgid "Dimensions:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:581
+#: options/metaboxes/boxes/media-manager-panels.php:693
+#: options/metaboxes/boxes/media-manager-panels.php:824
+msgid "Image URL:"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:582
+#: options/metaboxes/boxes/media-manager-panels.php:694
+#: options/metaboxes/boxes/media-manager-panels.php:825
+msgid "[IMAGE LINK]"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:602
+#: options/metaboxes/boxes/media-manager-panels.php:714
+#: options/metaboxes/boxes/media-manager-panels.php:845
+msgid "Image title."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:618
+msgid "Add custom link to popup window."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:726
+#: options/metaboxes/boxes/media-manager-panels.php:857
+msgid "Subtitle"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:730
+#: options/metaboxes/boxes/media-manager-panels.php:861
+msgid "Image subtitle."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:877
+msgid ""
+"Paste the full URL (include http://) of your Vimeo or Youtube movie. Video "
+"will be shown instead of the image."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:889
+msgid "Image Type"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:904
+msgid "Select image type."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:904
+msgid "NOTE: Displayed only on Intro slider section."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:916
+msgid "Lightbox Link"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:920
+msgid ""
+"Paste the full URL (include http://) of your image you would like to use for "
+"jQuery lightbox pop-up effect."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:936
+msgid "Paste the full URL (include http://)."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:947
+msgid "Media Code"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:951
+msgid ""
+"Paste media embed code (iframe) of Soundcloud, Mixcloud or links to Youtube, "
+"Vimeo."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:964
+msgid "Show Music Player?"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:979
+msgid "Show music player."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:993
+msgid "Select Track(s)"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1031
+msgid "Select tracklist or single track."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1043
+msgid "Track Number"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1047
+msgid "Select track."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1129
+#: options/metaboxes/boxes/media-manager-panels.php:1232
+msgid "Custom title"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1141
+msgid "Enter title."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1152
+msgid "Icon"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1168
+msgid "Select website icon."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1183
+msgid "Enter link."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1241
+msgid "Select Album"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1265
+msgid "Select music album."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1308
+msgid "Add slider background image."
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1320
+msgid "Description"
+msgstr ""
+
+#: options/metaboxes/boxes/media-manager-panels.php:1324
+msgid "Short description for the slider."
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:68 options/metaboxes/boxes/music.php:74
+#: options/post-types/class-artists.php:62
+#: options/post-types/class-artists.php:63
+#: options/scamp-player/shortcodes-scamp-player.php:272
+msgid "Artists"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:203
+msgid "Music Options"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:302
+msgid ""
+"Choose the recent music layout. The settings from this panel applies to the "
+"bottom of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:714
+msgid "Tracks Options"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:743 options/post-types/class-music.php:62
+#: options/post-types/class-music.php:63
+msgid "Music"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:755
+#: options/metaboxes/boxes/tracks-libary.php:72
+#: options/scamp-player/class-scamp-player.php:125
+msgid "Cover"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:780
+#: options/metaboxes/boxes/tracks-libary.php:96
+msgid "Add Tracks"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:781
+msgid "Add music tracks from media libary"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:786
+#: options/metaboxes/boxes/tracks-libary.php:102
+msgid "Add Custom Track"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:787
+#: options/metaboxes/boxes/tracks-libary.php:103
+msgid "Add tracks from custom link"
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:791
+#: options/metaboxes/boxes/tracks-libary.php:107
+msgid ""
+"Currently you don't have any audio tracks, you can add them by clicking on "
+"the button below."
+msgstr ""
+
+#: options/metaboxes/boxes/music.php:792
+#: options/metaboxes/boxes/tracks-libary.php:108
+msgid "Add audio tracks."
+msgstr ""
+
+#: options/metaboxes/boxes/page.php:31
+msgid "Page Options"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:32
+msgid "Post Options"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:64
+msgid "Post Template"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:76
+msgid "Simple Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:86 options/metaboxes/boxes/post.php:96
+msgid "Title on Hero Image with Sidebar"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:91
+msgid "Title on Hero Image"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:101
+msgid "Choose the post template."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:125
+msgid "Hero Image"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:129
+msgid ""
+"Use image that are at least 1920 x 1080 pixels or higher for the best "
+"display. Note: If this field is empty then will be displayed by default."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:139
+msgid "Hero Image Margin"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:147
+msgid ""
+"Set margin between title and top of the page. Tip: Hero can be displayed "
+"under Hero section (Theme Customizer > Header > Header Style > Show Header "
+"Above Hero )"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:156
+msgid "Hero Image Position"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:165
+msgid "Set background vertical position."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:174
+msgid "Featured Content"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:192
+msgid "YouTube Video"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:197
+msgid "Vimeo Video"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:202
+msgid "Soundcloud"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:207
+msgid "Spotify"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:212
+msgid "Bandcamp"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:217
+msgid "Music Tracks"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:222
+msgid "Choose featured content."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:227
+msgid "Media Link"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:231
+msgid "Paste media link."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:240
+msgid "Bandcamp Embed Code"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:245
+msgid "Paste iframe embed code."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:254
+msgid "Source Name"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:259
+msgid "Source name, this will appear at the bottom of the featured content."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:268
+msgid "Select Tracks"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:277
+msgid ""
+"Select tracklist post and drag and drop tracks to set the order. If there "
+"are no tracks available, then you can add a audio tracks using Tacks Manager "
+"menu on the left. Tip: Modifying this list does not affect on the original "
+"tracklist in Tracks Manager"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:311
+msgid "Show or hide tracks cover images in tracklist"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:395
+msgid ""
+"Enable or disable the related posts section (bottom of single post pages). "
+"Tip: This option can be set as the default in Theme Customizer > Single Post"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:400
+msgid "Display By"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:417
+msgid "Show navigation"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:426
+msgid ""
+"Enable or disable related posts navigation arrows. Tip: This option can be "
+"set as the default in Theme Customizer > Single Post"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:442
+msgid "Reviews"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:448
+msgid "Product Review"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:457
+msgid "Show or hide product reviews."
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:462
+msgid "Rating"
+msgstr ""
+
+#: options/metaboxes/boxes/post.php:470
+msgid ""
+"Add points ratings for this product. Note: The points range is between 1 and "
+"5."
+msgstr ""
+
+#: options/metaboxes/boxes/tracks-libary.php:31
+msgid "Options"
+msgstr ""
+
+#: options/metaboxes/boxes/tracks-libary.php:85
+#: options/post-types/class-tracks-libary.php:99
+msgid "ID"
+msgstr ""
+
+#: options/metaboxes/boxes/tracks-libary.php:97
+msgid "Add releases tracks from media libary"
+msgstr ""
+
+#: options/metaboxes/boxes/videos.php:32 options/metaboxes/boxes/videos.php:180
+msgid "Video Options"
+msgstr ""
+
+#: options/metaboxes/boxes/videos.php:66
+msgid "Video URL"
+msgstr ""
+
+#: options/metaboxes/boxes/videos.php:71
+msgid ""
+"Add Youtube or Vimeo link here. e.g: https://www.youtube.com/watch?"
+"v=lMJXxhRFO1k"
+msgstr ""
+
+#: options/metaboxes/boxes/videos.php:235
+msgid "Video Layout"
+msgstr ""
+
+#: options/metaboxes/boxes/videos.php:262
+msgid ""
+"Choose the videos layout. The settings from this panel applies to the bottom "
+"of the page, where the loop and sidebar is."
+msgstr ""
+
+#: options/post-types/class-artists.php:64
+#: options/post-types/class-events-manager.php:90
+#: options/post-types/class-gallery.php:80
+#: options/post-types/class-music.php:64
+#: options/post-types/class-tracks-libary.php:64
+#: options/post-types/class-videos.php:64
+msgid "Add New"
+msgstr ""
+
+#: options/post-types/class-artists.php:65
+msgid "Add New Artist"
+msgstr ""
+
+#: options/post-types/class-artists.php:66
+msgid "Edit Artist"
+msgstr ""
+
+#: options/post-types/class-artists.php:67
+msgid "New Artist"
+msgstr ""
+
+#: options/post-types/class-artists.php:68
+msgid "View Artist"
+msgstr ""
+
+#: options/post-types/class-artists.php:70
+msgid "No artists found"
+msgstr ""
+
+#: options/post-types/class-artists.php:71
+msgid "No artists found in Trash"
+msgstr ""
+
+#: options/post-types/class-artists.php:158
+#: options/post-types/class-events-manager.php:206
+#: options/post-types/class-gallery.php:174
+#: options/post-types/class-music.php:158
+#: options/post-types/class-videos.php:158
+msgid "Preview"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:88
+#: options/post-types/class-events-manager.php:89
+msgid "Events"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:91
+msgid "Add New Events Item"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:92
+msgid "Edit Events Item"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:93
+msgid "New Events Item"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:94
+msgid "View Events Item"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:95
+msgid "Search Items"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:96
+msgid "No events found"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:97
+msgid "No events found in Trash"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:321
+msgid "Future Event"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:323
+msgid "Past Event"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:330
+msgid "Event repeat"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:337
+msgid "Days left"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:535
+msgid "Start Today"
+msgstr ""
+
+#: options/post-types/class-events-manager.php:538
+msgid "Continued"
+msgstr ""
+
+#: options/post-types/class-gallery.php:78
+#: options/post-types/class-gallery.php:79
+msgid "Gallery"
+msgstr ""
+
+#: options/post-types/class-gallery.php:81
+msgid "Add New Gallery"
+msgstr ""
+
+#: options/post-types/class-gallery.php:82
+msgid "Edit Gallery"
+msgstr ""
+
+#: options/post-types/class-gallery.php:83
+msgid "New Gallery"
+msgstr ""
+
+#: options/post-types/class-gallery.php:84
+msgid "View Gallery"
+msgstr ""
+
+#: options/post-types/class-gallery.php:86
+msgid "No gallery found"
+msgstr ""
+
+#: options/post-types/class-gallery.php:87
+msgid "No gallery found in Trash"
+msgstr ""
+
+#: options/post-types/class-music.php:65
+msgid "Add New Album"
+msgstr ""
+
+#: options/post-types/class-music.php:66
+msgid "Edit Album"
+msgstr ""
+
+#: options/post-types/class-music.php:67
+msgid "New Album"
+msgstr ""
+
+#: options/post-types/class-music.php:68
+msgid "View Album"
+msgstr ""
+
+#: options/post-types/class-music.php:70
+msgid "No music found"
+msgstr ""
+
+#: options/post-types/class-music.php:71
+msgid "No music found in Trash"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:62
+msgid "Tracks Libary"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:63
+#: options/scamp-player/shortcodes-scamp-player.php:247
+msgid "Track"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:65
+msgid "Add New Tracks"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:66
+msgid "Edit Tracks"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:67
+msgid "New Tracks"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:68
+msgid "View Tracks"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:70
+msgid "No tracks found"
+msgstr ""
+
+#: options/post-types/class-tracks-libary.php:71
+msgid "No tracks found in Trash"
+msgstr ""
+
+#: options/post-types/class-videos.php:62
+msgid "Videos"
+msgstr ""
+
+#: options/post-types/class-videos.php:65
+msgid "Add New Video"
+msgstr ""
+
+#: options/post-types/class-videos.php:66
+msgid "Edit Video"
+msgstr ""
+
+#: options/post-types/class-videos.php:67
+msgid "New Video"
+msgstr ""
+
+#: options/post-types/class-videos.php:68
+msgid "View Video"
+msgstr ""
+
+#: options/post-types/class-videos.php:70
+msgid "No videos found"
+msgstr ""
+
+#: options/post-types/class-videos.php:71
+msgid "No videos found in Trash"
+msgstr ""
+
+#: options/scamp-player/class-scamp-player.php:124
+msgid "Play"
+msgstr ""
+
+#: options/scamp-player/class-scamp-player.php:126
+msgid "Title/Artist"
+msgstr ""
+
+#: options/scamp-player/class-scamp-player.php:127
+msgid "Buy/Download"
+msgstr ""
+
+#: options/scamp-player/class-scamp-player.php:129
+msgid "Empty Queue"
+msgstr ""
+
+#: options/scamp-player/class-scamp-player.php:261
+msgid "Startup tracklist"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#scamp_player .sp-track-container .sp-track-title"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track-control[href=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track[data-sc=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .fromlist[data-fromlist=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#scamp_player"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track:not(.sp-error)"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-volume-position"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody .paused"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-time-elapsed, .sp-time-total"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-progress"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-time-elapsed"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-time-total"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody tr:eq(0)"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody tr:eq("
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "a.sp-play-track[href=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "a.sp-play-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-track-container a"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ""
+".sp-track-container .sp-track-title, .sp-track-container .sp-track-artist"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-track-container .sp-track-artwork"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-marquee"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-track-container .sp-track-artist"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-track-container .sp-track-title"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-queue"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-scroller tr"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-badge"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-queue .sp-track-control[href=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody .sp-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-volume-slider"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-volume-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-track-item"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "a.sp-add-track, a.sp-play-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#scamp-console"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-content-control"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-add-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-play-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-add-list"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-play-list"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-content-control.sp-is-active"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#scamp_player .sp-position"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "<a href=\""
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "a"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "> a"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-volume-button.sp-show-volume"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-volume-bar-container"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "body"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody .sp-track-control"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll tbody .sp-remove-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track.playing"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track.paused"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-queue-scroll .sp-track:eq(0)"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-play-button, .sp-next-button, .sp-prev-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-play-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-next-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-prev-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid ".sp-queue-button"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-toggle"
+msgstr ""
+
+#: options/scamp-player/js/jquery.scamp.player.min.js:9
+#: options/scamp-player/js/scamp-player-pack.min.js:246
+msgid "#sp-empty-queue"
+msgstr ""
+
+#: options/scamp-player/shortcodes-scamp-player.php:129
+msgid "Custom Title"
+msgstr ""
+
+#: options/scamp-player/shortcodes-scamp-player.php:432
+msgid "Lyrics"
+msgstr ""
+
+#: options/scamp-player/shortcodes-scamp-player.php:452
+#: options/scamp-player/shortcodes-scamp-player.php:454
+msgid "Track cover"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:131
+msgid "Select menu type"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:136
+msgid "Big Navigation"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:138
+msgid "Music Slider"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:141
+msgid ""
+"Select menu type, please add submenus only to \"Super Menu\". The super menu "
+"have to be the top most menu item."
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:145
+msgid "Select posts category"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:152
+msgid "Select posts category to display images slider."
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:156
+msgid "Select music category"
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:163
+msgid "Select music category to display images slider."
+msgstr ""
+
+#: options/super-menu/super-menu-walker.php:485
+msgid ""
+"Category does not contain posts, go to the menu and select another category, "
+"or add a few posts to the current category."
+msgstr ""
+
+#: options/toolkit/js/frontend-toolkit-addons.min.js:1
+#: options/toolkit/js/frontend-toolkit-pack.min.js:284
+msgid "[data-parallax]"
+msgstr ""
+
+#: options/toolkit/toolkit.php:62
+msgid "Leave a Reply"
+msgstr ""
+
+#: options/twitter/class-twitter.php:68
+msgid "ERROR: Missing API Key."
+msgstr ""
+
+#: options/twitter/class-twitter.php:69
+msgid "ERROR: Missing API Secret."
+msgstr ""
+
+#: options/twitter/class-twitter.php:70
+msgid "ERROR: Missing Twitter Feed User Name."
+msgstr ""
+
+#: options/twitter/class-twitter.php:136 options/twitter/class-twitter.php:185
+msgid "ERROR: Username not exists or Twitter API error."
+msgstr ""
+
+#: options/twitter/class-twitter.php:177
+msgid "ago"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:25
+msgid "Display advertisement in sidebar."
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:29
+msgid "[RT] Advertisement Spot"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:109
+msgid "AD"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:123
+#: options/widgets/class-widget-instafeed.php:160
+#: options/widgets/class-widget-recent-posts.php:131
+msgid "Advanced"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:132
+#: options/widgets/class-widget-instafeed.php:169
+#: options/widgets/class-widget-recent-posts.php:140
+msgid "Title:"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:167
+msgid "Choose the adspot from list"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:177
+#: options/widgets/class-widget-instafeed.php:289
+#: options/widgets/class-widget-recent-posts.php:193
+msgid "Classes"
+msgstr ""
+
+#: options/widgets/class-widget-ad.php:181
+#: options/widgets/class-widget-instafeed.php:293
+#: options/widgets/class-widget-recent-posts.php:197
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:29
+msgid "[RT] Instagram"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:187
+msgid "Access Token"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:205
+msgid "Display header"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:209
+msgid "Display or hide the Instagram header section"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:223
+msgid "Images per row"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:228
+msgid "images"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:230
+msgid "Set the number of images displayed on each row (default is 3)"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:235
+msgid "Number of rows"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:240
+msgid "rows"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:242
+msgid "Set on how many rows to display the images (default is 2)"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:247
+msgid "Image gap"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:265
+msgid "Request timeout"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:270
+#: options/widgets/class-widget-instafeed.php:282
+msgid "minutes"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:272
+msgid "Timeout for the instagram API request."
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:277
+msgid "Cache time"
+msgstr ""
+
+#: options/widgets/class-widget-instafeed.php:284
+msgid "Time that data is stored in the database before re-downloading"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:25
+msgid "Display recent posts containing featured image."
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:29
+msgid "[RT] Recent Posts"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:149
+msgid "Limit"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:154
+msgid "posts"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:156
+msgid "Number of thumbnails to show. Limit of 10 thumbnails."
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:161
+msgid "Display ratings"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:170
+msgid "Display thumbnails"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:179
+msgid "Excerpt"
+msgstr ""
+
+#: options/widgets/class-widget-recent-posts.php:183
+msgid "Display short text (excerpt)."
+msgstr ""
