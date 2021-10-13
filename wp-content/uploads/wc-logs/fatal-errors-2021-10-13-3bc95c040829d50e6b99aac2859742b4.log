@@ -22,3 +22,5 @@ Stack trace:
 #19 {main}
   thrown in C:\xampp\htdocs\wfp\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php on line 27
 
+2021-10-13T11:13:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wfp\wp-includes\class-wp-image-editor-gd.php on line 208
+
